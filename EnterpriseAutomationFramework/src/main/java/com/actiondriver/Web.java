@@ -54,7 +54,7 @@ public class Web extends Library
 	public static String email="";
 	public static String password="";
 	
-
+	 
 		
 	public static final Logger logger = Logger.getLogger(Web.class.getName());
 	
@@ -77,7 +77,6 @@ public class Web extends Library
 		
 	}*/
 	
-
 	//Load Properties
 	public static void loadprop(Properties prop) throws IOException
 	{
@@ -86,34 +85,35 @@ public class Web extends Library
 		prop.load(ip);
 		
 		browser= prop.getProperty("Browser");
-		System.out.println("browser"+browser);
-		
 		url= prop.getProperty("URL");
-		System.out.println("URL"+url);
-		
 		email= prop.getProperty("Email");
-		System.out.println("Email"+email);
-		
 		password= prop.getProperty("Password");
-		System.out.println("Password"+password);
 		
-		
+			
+	}
+	
+	//Wait
+	public void Wait() throws Exception
+	{
+		Thread.sleep(5000);
 	}
 	
 	//Getting a WebElement
 	public static WebElement getWebElement(WebDriver driver, String locatorTypeAndValue, boolean throwException, int numberofSeconds) throws Exception
 	{
 		By by= getByObject(locatorTypeAndValue);
-		//System.out.println("by"+by);
+		JavascriptExecutor js=(JavascriptExecutor) driver;
 		WebElement we;
 		Duration waitTime;
 		waitTime= Duration.ofSeconds(20);
-		//System.out.println("waitTime"+waitTime);
 		try 
 		{
 			WebDriverWait wait= new WebDriverWait(driver,waitTime);
-			//System.out.println("wait"+wait);
 			we = wait.until(ExpectedConditions.visibilityOfElementLocated(by));
+			js.executeScript("arguments[0].scrollIntoView();",we);
+			//Thread.sleep(100);
+			js.executeScript("window.scrollBy(0,-300)");
+			//js.executeScript("window.scrollTo(arguments[0],arguments[1])",we.getLocation().x+150,we.getLocation().y+150);
 			return we;
 			
 		}catch(Exception ex)
@@ -151,19 +151,19 @@ public class Web extends Library
 		
 		if(locatorType.equals(Constants.CLASSNAME)) 
 			{by =By.className(locatorValue);}
-	  else if(locatorType.equals(Constants.CSSSELECTOR)) 
+	 else if(locatorType.equals(Constants.CSSSELECTOR)) 
 			{by =By.cssSelector(locatorValue);}
-	   else	if(locatorType.equals(Constants.ID)) 
+	 else if(locatorType.equals(Constants.ID)) 
 			{by =By.id(locatorValue);}
-	   else	if(locatorType.equals(Constants.LINKTEXT)) 
+	 else if(locatorType.equals(Constants.LINKTEXT)) 
 			{by =By.linkText(locatorValue);}
-	   else	if(locatorType.equals(Constants.NAME)) 
+	 else if(locatorType.equals(Constants.NAME)) 
 			{by =By.name(locatorValue);}
-	   else	if(locatorType.equals(Constants.PARTIALLINKTEXT)) 
+	 else if(locatorType.equals(Constants.PARTIALLINKTEXT)) 
 			{by =By.partialLinkText(locatorValue);}
-	   else	if(locatorType.equals(Constants.TAGNAME)) 
+	 else if(locatorType.equals(Constants.TAGNAME)) 
 			{by =By.tagName(locatorValue);}
-	   else	if(locatorType.equals(Constants.XPATH)) 
+	 else if(locatorType.equals(Constants.XPATH)) 
 			{by =By.xpath(locatorValue);
 			}
 		else		
@@ -262,24 +262,11 @@ public class Web extends Library
 	//Take ScreenShot
 		public static String takeScreenshot(WebDriver driver,String imageName)throws Exception
 		{
-			/*int min=10;
-			int max=10000;
-			int random_int=(int) Math.floor(Math.random()*(max-min+1)+min);
-			TakesScreenshot ts= ((TakesScreenshot) driver);
-			File sourceFile= ts.getScreenshotAs(OutputType.FILE);
-			Path sourcePath=sourceFile.toPath();
-			String file = screenshotsLocation+String.valueOf(random_int)+"_"+imageName;
-			System.out.println("filepath"+file);
-			File destinationFile= new File("C:\\Users\\pragadeeswaran.s\\eclipse-workspace\\enterpriseautomationframework\\Screenshots\\"+imageName);
-			Path destinationPath=sourceFile.toPath();
-			Files.copy(sourcePath,destinationPath,java.nio.file.StandardCopyOption.REPLACE_EXISTING);
-			
-			return "File://"+destinationFile.getAbsolutePath();*/
-			
+						
 			int i=1;
 			
 			File srcFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-			File destinationFile= new File(screenshotsLocation+String.valueOf(i)+"_"+imageName);
+			File destinationFile= new File(screenshotsLocation+String.valueOf(i)+"_"+imageName);			
 			try 
 			{
 			FileUtils.copyFile(srcFile,destinationFile);
@@ -364,5 +351,32 @@ public class Web extends Library
 			
 		
 		}
+		
+		public static String getText(WebDriver driver, String locatorTypeAndValue, boolean throwException, int numberofSeconds) throws Exception
+		{
+			String returnValue="";
+			WebElement we=getWebElement(driver,locatorTypeAndValue,throwException,numberofSeconds);
+			
+			if(we!=null)
+			{
+				highlight(driver,we);
+				if(loglibraryActionWithScreenshots)
+				{
+					highlightForScreenshot(driver,we);
+					logResult("Reading from Text Object"+ locatorTypeAndValue.replaceAll("~","="),"	Read Text Successfully","Text Reading Successfull",Constants.PASS,driver);
+					unHighlight(driver,we);
+				}
+				returnValue=we.getText().toString();
+				System.out.println("returnValue"+returnValue);
+				return returnValue;
+			}
+			else
+			{
+				return "";
+			}
+			
+			
+		}
+		
 	
 }

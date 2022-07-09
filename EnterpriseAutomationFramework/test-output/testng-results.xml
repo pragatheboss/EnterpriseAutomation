@@ -2,20 +2,31 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-05-27T23:07:49 BST" name="Default suite" finished-at="2022-05-27T23:08:56 BST" duration-ms="67163">
+  <suite started-at="2022-07-09T10:37:34 BST" name="Suite" finished-at="2022-07-09T10:39:48 BST" duration-ms="133894">
     <groups>
     </groups>
-    <test started-at="2022-05-27T23:07:49 BST" name="Default test" finished-at="2022-05-27T23:08:56 BST" duration-ms="67163">
-      <class name="com.base.BaseClass">
-        <test-method is-config="true" signature="loadProp()[pri:0, instance:com.base.BaseClass@16150369]" started-at="2022-05-27T23:07:49 BST" name="loadProp" finished-at="2022-05-27T23:07:49 BST" duration-ms="11" status="PASS">
+    <test started-at="2022-07-09T10:37:34 BST" name="Test" finished-at="2022-07-09T10:39:48 BST" duration-ms="133894">
+      <class name="com.testcases.CreateOrder">
+        <test-method is-config="true" signature="loadProp()[pri:0, instance:com.testcases.CreateOrder@4470fbd6]" started-at="2022-07-09T10:37:34 BST" name="loadProp" finished-at="2022-07-09T10:37:34 BST" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadProp -->
-        <test-method signature="loadConfig()[pri:0, instance:com.base.BaseClass@16150369]" started-at="2022-05-27T23:07:49 BST" name="loadConfig" finished-at="2022-05-27T23:08:56 BST" duration-ms="67096" status="PASS">
+        <test-method signature="createOrder(java.lang.reflect.Method)[pri:0, instance:com.testcases.CreateOrder@4470fbd6]" started-at="2022-07-09T10:37:34 BST" name="createOrder" finished-at="2022-07-09T10:39:41 BST" duration-ms="127152" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.testcases.CreateOrder.createOrder(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loadConfig -->
-      </class> <!-- com.base.BaseClass -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- createOrder -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.testcases.CreateOrder@4470fbd6]" started-at="2022-07-09T10:39:41 BST" name="afterTest" finished-at="2022-07-09T10:39:48 BST" duration-ms="6698" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.testcases.CreateOrder -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

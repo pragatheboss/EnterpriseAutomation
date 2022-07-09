@@ -2,6 +2,15 @@ package com.utility;
 
 import java.util.logging.Logger;
 
+import javax.mail.Message;
+import javax.mail.MessagingException;
+import javax.mail.PasswordAuthentication;
+import javax.mail.Session;
+import javax.mail.Transport;
+import javax.mail.internet.InternetAddress;
+import javax.mail.internet.MimeMessage;
+
+
 import org.openqa.selenium.WebDriver;
 import org.xml.sax.helpers.DefaultHandler;
 
@@ -15,6 +24,7 @@ import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Properties;
 //import java.util.Vector;
 import java.util.concurrent.ConcurrentHashMap;
 
@@ -35,6 +45,10 @@ public class Library extends DefaultHandler
 	public static ConcurrentHashMap<String,List<String>> summaryReportGenerationMap = new ConcurrentHashMap<String,List<String>>();
 	public static ConcurrentHashMap<String,List<String>> overallTestStatusMap = new ConcurrentHashMap<String,List<String>>();
 	
+	
+	public static ConcurrentHashMap<String, String > tcStartTime = new ConcurrentHashMap<String,String>();
+	public static ConcurrentHashMap<String, String > tcEndTime = new ConcurrentHashMap<String,String>();
+	
 	public static InheritableThreadLocal<String> testName = new InheritableThreadLocal<String>();
 	
 	
@@ -44,7 +58,7 @@ public class Library extends DefaultHandler
 	public static String resourceLocation = System.getProperty("user.dir").toString().replace("/","//")+"src/test/resources";
 	public static String testEnvironment;
 	public static String testReportsLocation;
-	public static String screenshotsLocation="C:\\Users\\Sahana Saravanan\\eclipse-workspace\\EnterpriseAutomationFramework\\screenshots\\";
+	public static String screenshotsLocation=".\\Screenshots\\";
 	public static String outputFilesLocation;
 	public static String application;
 	
@@ -54,6 +68,8 @@ public class Library extends DefaultHandler
 	
 	public static String OS = System.getProperty("os.name").toUpperCase();
 	public static Map<String,List<String>> resultsListByTest = Collections.synchronizedMap(resultsListByTestLHM);
+	
+	
 	//public static String testExecutionChannel;
 	
 	public static boolean isInvalid(String input) throws Exception
@@ -176,15 +192,13 @@ public class Library extends DefaultHandler
 		}
 				
 	}
-	
-	
-	
+		
 	public static void logResult(String descriptionOfStep, String expectedResult, String actualResult, String stepStatus, WebDriver driver)
 	{
 		int failedSteps =0;
 		int stepCount =0;
-		String screenShotName ="";
-		String classAndMethodWhichCalledThis ="";
+		String screenShotName ="";			
+		String classAndMethodWhichCalledThis = "";
 		
 		try 
 		{
@@ -291,8 +305,7 @@ public class Library extends DefaultHandler
 		}
 				
 	}
-	
-	
+		
 	public static void logResult(String descriptionOfStep, String expectedResult, String actualResult, String stepStatus, String screenShotName)
 	{
 		int failedSteps =0;
@@ -406,6 +419,49 @@ public class Library extends DefaultHandler
 				
 	}
 	
-	
+	public static String getCurrentTimeStamp()
+	{
+		SimpleDateFormat sfdate = new SimpleDateFormat("MM/dd/yyyy hh:mm:ss");
+		Calendar cal = Calendar.getInstance();
+		String currentTimeStamp =sfdate.format(cal.getTime());
+		return currentTimeStamp;
+	}
+
+	public static void sendEmail()
+	{
+		final String to = "pragatheboss@gmail.com";
+		final String from = "pragatheboss@ymail.com";
+
+		 String host = "smtp.mail.yahoo.com";
+		 Properties properties = System.getProperties();
+
+		 properties.put("mail.smtp.host", host);
+		 properties.put("mail.smtp.port", "587");
+		 properties.put("mail.smtp.starttls.enable", "true");
+		 properties.put("mail.smtp.auth", "true");
+		 
+	     Session session = Session.getInstance(properties, new javax.mail.Authenticator() {
+	         protected PasswordAuthentication getPasswordAuthentication() {
+	             return new PasswordAuthentication("pragatheboss@ymail.com", "lndmgazfyctqehvo");
+	         }
+	     });
+	     
+	     session.setDebug(true);
+	     try {
+	         MimeMessage message = new MimeMessage(session);
+
+	         message.setFrom(new InternetAddress(from));
+	         message.addRecipient(Message.RecipientType.TO, new InternetAddress(to));
+	         message.setSubject("This is the Subject Line!");
+	         message.setText("Order Created");
+
+	         System.out.println("sending...");
+	         Transport.send(message);
+	         System.out.println("Sent message successfully....");
+	     } catch (MessagingException mex) {
+	         mex.printStackTrace();
+	     }
+	     
+	}
 	
 }
