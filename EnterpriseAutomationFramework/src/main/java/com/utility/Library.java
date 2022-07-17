@@ -16,6 +16,7 @@ import org.xml.sax.helpers.DefaultHandler;
 
 import com.actiondriver.Web;
 
+
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
@@ -61,6 +62,8 @@ public class Library extends DefaultHandler
 	public static String screenshotsLocation=".\\Screenshots\\";
 	public static String outputFilesLocation;
 	public static String application;
+	
+
 	
 	public static boolean enableHighlighting = true;
 	public static boolean loglibraryActionWithScreenshots = true;
@@ -452,7 +455,7 @@ public class Library extends DefaultHandler
 
 	         message.setFrom(new InternetAddress(from));
 	         message.addRecipient(Message.RecipientType.TO, new InternetAddress(to));
-	         message.setSubject("This is the Subject Line!");
+	         message.setSubject("Create Order Test NG");
 	         message.setText("Order Created");
 
 	         System.out.println("sending...");
