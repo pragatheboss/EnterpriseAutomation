@@ -367,7 +367,7 @@ public class Web extends Library
 					unHighlight(driver,we);
 				}
 				returnValue=we.getText().toString();
-				System.out.println("returnValue"+returnValue);
+				System.out.println("Text is: "+returnValue);
 				return returnValue;
 			}
 			else

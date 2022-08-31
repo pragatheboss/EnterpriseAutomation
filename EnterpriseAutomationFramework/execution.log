@@ -1,0 +1,25 @@
+2022-08-3116:44:36 INFO  CreateOrder:43 -**************TEST CASE STARTS**************************
+2022-08-3116:44:36 INFO  CreateOrder:147 -Exception Message from Testnull
+2022-08-3116:44:36 INFO  CreateOrder:152 -Completed Execution of Testcom.testcases.CreateOrder
+2022-08-3116:45:51 INFO  CreateOrder:43 -**************TEST CASE STARTS**************************
+2022-08-3116:48:39 INFO  CreateOrder:152 -Completed Execution of Testcom.testcases.CreateOrder
+2022-08-31 17:52:13 INFO  CreateOrder:45 -**************TEST CASE STARTS**************************
+2022-08-31 17:54:31 INFO  CreateOrder:153 -Completed Execution of TestClasscom.testcases.CreateOrder
+2022-08-31 17:54:31 INFO  CreateOrder:154 -Completed Execution of Testcase : Method createOrder
+2022-08-31 17:54:31 INFO  CreateOrder:155 -Completed Execution of TestClass 2class java.lang.reflect.Method
+2022-08-31 17:59:35 INFO  CreateOrder:45 -**************TEST CASE STARTS**************************
+2022-08-31 18:02:10 INFO  CreateOrder:153 -Completed Execution of TestClasscom.testcases.CreateOrder
+2022-08-31 18:02:10 INFO  CreateOrder:154 -Completed Execution of Testcase : Method createOrder
+2022-08-31 18:02:10 INFO  CreateOrder:155 -Completed Execution of TestClass 2class java.lang.reflect.Method
+2022-08-31 18:02:10 INFO  CreateOrder:160 -Testcase StartingTime[{createOrder=08/31/2022 05:59:35}]
+2022-08-31 18:02:10 INFO  CreateOrder:161 -Testcase EndingTime[{createOrder=08/31/2022 06:02:10}]
+2022-08-31 18:15:15 INFO  CreateOrder:45 -**************TEST CASE STARTS**************************
+2022-08-31 18:18:06 INFO  CreateOrder:163 -Completed Execution of Test Class : com.testcases.CreateOrder
+2022-08-31 18:18:06 INFO  CreateOrder:164 -Completed Execution of Test case : Method : createOrder
+2022-08-31 18:18:06 INFO  CreateOrder:168 -Test case Starting Time : [{createOrder=08/31/2022 06:15:15}]
+2022-08-31 18:18:06 INFO  CreateOrder:169 -Test case Ending Time : [{createOrder=08/31/2022 06:18:06}]
+2022-08-31 18:20:22 INFO  CreateOrder:45 -**************TEST CASE STARTS**************************
+2022-08-31 18:24:18 INFO  CreateOrder:163 -Completed Execution of Test Class : com.testcases.CreateOrder
+2022-08-31 18:24:18 INFO  CreateOrder:164 -Completed Execution of Test case : Method : createOrder
+2022-08-31 18:24:18 INFO  CreateOrder:168 -Test case Starting Time : [{createOrder=08/31/2022 06:20:22}]
+2022-08-31 18:24:18 INFO  CreateOrder:169 -Test case Ending Time : [{createOrder=08/31/2022 06:24:18}]

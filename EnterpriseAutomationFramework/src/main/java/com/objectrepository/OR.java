@@ -35,9 +35,7 @@ public class OR {
 			public static final String txtTotalAmount = Constants.XPATH+"~"+"//span[@id='total_price']";
 			public static final String txtOrder = Constants.XPATH+"~"+"//div[contains(@class,'box')]";
 			
-			//a[@class='button btn btn-default standard-checkout button-medium']//span[text()='Proceed to checkout']
-			
-			
+			//a[@class='button btn btn-default standard-checkout button-medium']//span[text()='Proceed to checkout']		
 		
 			//public static final String linkInterestCalculator = Constants.XPATH+"~"+"Interest Calculator";
 			
