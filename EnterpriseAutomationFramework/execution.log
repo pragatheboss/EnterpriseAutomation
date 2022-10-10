@@ -23,3 +23,36 @@
 2022-08-31 18:24:18 INFO  CreateOrder:164 -Completed Execution of Test case : Method : createOrder
 2022-08-31 18:24:18 INFO  CreateOrder:168 -Test case Starting Time : [{createOrder=08/31/2022 06:20:22}]
 2022-08-31 18:24:18 INFO  CreateOrder:169 -Test case Ending Time : [{createOrder=08/31/2022 06:24:18}]
+2022-09-20 11:42:33 INFO  CreateOrder:45 -**************TEST CASE STARTS**************************
+2022-09-20 11:42:37 ERROR CreateOrder:158 -Exception Message from TestCould not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 103
+Current browser version is 105.0.5195.127 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'SAHANA', ip: '192.168.1.154', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [start-maximized], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [start-maximized], extensions: []}}}]
+2022-09-20 11:42:37 INFO  CreateOrder:163 -Completed Execution of Test Class : com.testcases.CreateOrder
+2022-09-20 11:42:37 INFO  CreateOrder:164 -Completed Execution of Test case : Method : createOrder
+2022-09-20 11:42:37 INFO  CreateOrder:168 -Test case Starting Time : [{createOrder=09/20/2022 11:42:33}]
+2022-09-20 11:42:37 INFO  CreateOrder:169 -Test case Ending Time : [{createOrder=09/20/2022 11:42:37}]
+2022-09-20 11:43:03 INFO  CreateOrder:45 -**************TEST CASE STARTS**************************
+2022-09-20 11:43:05 ERROR CreateOrder:158 -Exception Message from TestCould not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 103
+Current browser version is 105.0.5195.127 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'SAHANA', ip: '192.168.1.154', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [start-maximized], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [start-maximized], extensions: []}}}]
+2022-09-20 11:43:05 INFO  CreateOrder:163 -Completed Execution of Test Class : com.testcases.CreateOrder
+2022-09-20 11:43:05 INFO  CreateOrder:164 -Completed Execution of Test case : Method : createOrder
+2022-09-20 11:43:05 INFO  CreateOrder:168 -Test case Starting Time : [{createOrder=09/20/2022 11:43:03}]
+2022-09-20 11:43:05 INFO  CreateOrder:169 -Test case Ending Time : [{createOrder=09/20/2022 11:43:05}]
+2022-09-20 11:46:30 INFO  CreateOrder:45 -**************TEST CASE STARTS**************************
+2022-09-20 11:49:17 INFO  CreateOrder:163 -Completed Execution of Test Class : com.testcases.CreateOrder
+2022-09-20 11:49:17 INFO  CreateOrder:164 -Completed Execution of Test case : Method : createOrder
+2022-09-20 11:49:17 INFO  CreateOrder:168 -Test case Starting Time : [{createOrder=09/20/2022 11:46:30}]
+2022-09-20 11:49:17 INFO  CreateOrder:169 -Test case Ending Time : [{createOrder=09/20/2022 11:49:17}]
+2022-10-02 23:34:14 INFO  CreateOrder:45 -**************TEST CASE STARTS**************************
+2022-10-03 10:10:46 INFO  CreateOrder:45 -**************TEST CASE STARTS**************************
+2022-10-03 10:13:18 INFO  CreateOrder:163 -Completed Execution of Test Class : com.testcases.CreateOrder
+2022-10-03 10:13:18 INFO  CreateOrder:164 -Completed Execution of Test case : Method : createOrder
+2022-10-03 10:13:18 INFO  CreateOrder:168 -Test case Starting Time : [{createOrder=10/03/2022 10:10:46}]
+2022-10-03 10:13:18 INFO  CreateOrder:169 -Test case Ending Time : [{createOrder=10/03/2022 10:13:18}]
