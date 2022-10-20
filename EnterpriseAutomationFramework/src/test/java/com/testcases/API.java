@@ -16,7 +16,7 @@ import com.utility.Library;
 
 import io.restassured.response.Response;
 
-public class API extends RestAssuredAPI{
+public class API extends RestAssuredAPI{ 
 
 	public static ThreadLocal<String> testClassMethod = new ThreadLocal<String>();
 	private static Logger logger =Logger.getLogger (API.class);
