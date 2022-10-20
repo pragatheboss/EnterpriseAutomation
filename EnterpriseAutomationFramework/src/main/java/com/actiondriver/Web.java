@@ -62,8 +62,8 @@ public class Web extends Library
 	
 	
 	
-	private static String chromedriver =(OS.contains("WINDOWS") ? "./src/test/resources/drivers/chromedriver.exe" : OS.contains("LINUX")?"./src/test/resources/drivers/chromedriver_linux"
-			:System.getProperty("user.dir")+"/Drivers");
+	private static String chromedriver =(OS.contains("MAC") ? "./src/test/resources/drivers/chromedriver" : OS.contains("LINUX")?"./src/test/resources/drivers/chromedriver_linux"
+            :System.getProperty("user.dir")+"/Drivers");
 	
 	public static final ChromeDriverService chromeservice = new ChromeDriverService.Builder().usingDriverExecutable(new File(chromedriver)).usingAnyFreePort().build();
 	

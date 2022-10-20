@@ -59,7 +59,7 @@ public class Library extends DefaultHandler
 	public static String resourceLocation = System.getProperty("user.dir").toString().replace("/","//")+"src/test/resources";
 	public static String testEnvironment;
 	public static String testReportsLocation;
-	public static String screenshotsLocation="Screenshots\\";
+	public static String screenshotsLocation="Screenshots//";
 	public static String outputFilesLocation;
 	public static String application;
 	

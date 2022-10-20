@@ -56,3 +56,53 @@ Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goo
 2022-10-03 10:13:18 INFO  CreateOrder:164 -Completed Execution of Test case : Method : createOrder
 2022-10-03 10:13:18 INFO  CreateOrder:168 -Test case Starting Time : [{createOrder=10/03/2022 10:10:46}]
 2022-10-03 10:13:18 INFO  CreateOrder:169 -Test case Ending Time : [{createOrder=10/03/2022 10:13:18}]
+2022-10-10 22:56:07 INFO  CreateOrder:45 -**************TEST CASE STARTS**************************
+2022-10-10 22:58:39 INFO  CreateOrder:163 -Completed Execution of Test Class : com.testcases.CreateOrder
+2022-10-10 22:58:39 INFO  CreateOrder:164 -Completed Execution of Test case : Method : createOrder
+2022-10-10 22:58:39 INFO  CreateOrder:168 -Test case Starting Time : [{createOrder=10/10/2022 10:56:07}]
+2022-10-10 22:58:39 INFO  CreateOrder:169 -Test case Ending Time : [{createOrder=10/10/2022 10:58:39}]
+2022-10-10 23:08:14 INFO  CreateOrder:45 -**************TEST CASE STARTS**************************
+2022-10-10 23:08:51 ERROR CreateOrder:158 -Exception Message from Teststale element reference: element is not attached to the page document
+  (Session info: chrome=106.0.5249.103)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Pragadeeswarans-MacBook-Air.local', ip: 'fe80:0:0:0:837:6bab:176b:9c4c%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.6', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [832b7aa5615327792db8b0d7c72643be, executeScript {script=arguments[0].setAttribute('style','background:yellow;border:2px solid red;');, args=[{ELEMENT=f0e6552c-d1c2-4f01-8529-4ce640ff1c70, element-6066-11e4-a52e-4f735466cecf=f0e6552c-d1c2-4f01-8529-4ce640ff1c70}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: /var/folders/j8/71rq0p8n0z9...}, goog:chromeOptions: {debuggerAddress: localhost:50926}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:50926/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 832b7aa5615327792db8b0d7c72643be
+2022-10-10 23:08:51 INFO  CreateOrder:163 -Completed Execution of Test Class : com.testcases.CreateOrder
+2022-10-10 23:08:51 INFO  CreateOrder:164 -Completed Execution of Test case : Method : createOrder
+2022-10-10 23:08:51 INFO  CreateOrder:168 -Test case Starting Time : [{createOrder=10/10/2022 11:08:14}]
+2022-10-10 23:08:51 INFO  CreateOrder:169 -Test case Ending Time : [{createOrder=10/10/2022 11:08:51}]
+2022-10-10 23:10:43 INFO  CreateOrder:45 -**************TEST CASE STARTS**************************
+2022-10-10 23:13:02 INFO  CreateOrder:163 -Completed Execution of Test Class : com.testcases.CreateOrder
+2022-10-10 23:13:02 INFO  CreateOrder:164 -Completed Execution of Test case : Method : createOrder
+2022-10-10 23:13:02 INFO  CreateOrder:168 -Test case Starting Time : [{createOrder=10/10/2022 11:10:43}]
+2022-10-10 23:13:02 INFO  CreateOrder:169 -Test case Ending Time : [{createOrder=10/10/2022 11:13:02}]
+2022-10-18 22:46:27 INFO  CreateOrder:45 -**************TEST CASE STARTS**************************
+2022-10-18 22:47:03 INFO  CreateOrder:45 -**************TEST CASE STARTS**************************
+2022-10-18 22:47:15 INFO  API:51 -completed execution quitting
+2022-10-18 22:47:35 ERROR CreateOrder:158 -Exception Message from Test
+There was an issue with the WebElement to be located by the locator:
+xpath~//a[contains(text(),'Sign in')]
+Clue:Either WebElemnt does not exist in App or locator information in OR.Java is incorrect. See below for more information
+Expected condition failed: waiting for visibility of element located by By.xpath: //a[contains(text(),'Sign in')] (tried for 20 second(s) with 500 milliseconds interval)
+2022-10-18 22:47:35 INFO  CreateOrder:163 -Completed Execution of Test Class : com.testcases.CreateOrder
+2022-10-18 22:47:35 INFO  CreateOrder:164 -Completed Execution of Test case : Method : createOrder
+2022-10-18 22:47:35 INFO  CreateOrder:168 -Test case Starting Time : [{createOrder=10/18/2022 10:47:03}]
+2022-10-18 22:47:35 INFO  CreateOrder:169 -Test case Ending Time : [{createOrder=10/18/2022 10:47:35}]
+2022-10-18 22:47:36 INFO  API:51 -completed execution quitting
+2022-10-18 22:50:20 INFO  API:51 -completed execution quitting
+2022-10-18 22:54:44 INFO  API:51 -completed execution quitting
+2022-10-18 22:55:31 INFO  API:51 -completed execution quitting
+2022-10-18 22:56:28 INFO  API:51 -
+completed execution quitting
+2022-10-18 22:57:31 INFO  API:51 -
+completed execution quitting
+2022-10-18 22:58:35 INFO  API:51 -
+Completed GET execution quitting
+2022-10-18 23:08:03 INFO  API:51 -
+Completed GET execution quitting
+2022-10-20 12:54:25 INFO  API:51 -
+Completed GET execution quitting

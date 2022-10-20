@@ -33,7 +33,7 @@ public class CreateOrder extends Web {
 	
 
 	
-	@Test(enabled=true)
+	@Test(enabled=false)
 	
 	//@Test
 	
@@ -44,7 +44,7 @@ public class CreateOrder extends Web {
 	
 	logger.info("**************TEST CASE STARTS**************************");
 	
-	screenshotsLocation+=testMethod.getName()+"\\";
+	screenshotsLocation+=testMethod.getName()+"//";
 	
 	//Launch
 	Library.tcStartTime.put(testMethod.getName(),Library.getCurrentTimeStamp());

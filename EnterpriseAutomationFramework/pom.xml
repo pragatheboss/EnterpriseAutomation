@@ -54,8 +54,18 @@
 <artifactId>javax.mail</artifactId>
 <version>1.6.2</version>
 </dependency>
-
-
+<!-- REST-Assured -->
+<dependency>
+<groupId>io.rest-assured</groupId>
+<artifactId>rest-assured</artifactId>
+<version>5.2.0</version>
+</dependency>
+<!-- JSON Simple -->
+<dependency>
+<groupId>com.googlecode.json-simple</groupId>
+<artifactId>json-simple</artifactId>
+<version>1.1</version>
+</dependency>
 <!-- Apache Log4j -->
 <!-- https://mvnrepository.com/artifact/log4j/log4j -->
 <dependency>

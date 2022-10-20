@@ -3,9 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
+      <class name="com.testcases.API">
+        <methods>
+          <include name="getData"/>
+          <include name="loadProp"/>
+        </methods>
+      </class> <!-- com.testcases.API -->
       <class name="com.testcases.CreateOrder">
         <methods>
-          <include name="createOrder" invocation-numbers="0"/>
+          <include name="createOrder"/>
           <include name="loadProp"/>
           <include name="afterTest"/>
         </methods>
