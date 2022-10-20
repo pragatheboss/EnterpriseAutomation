@@ -28,7 +28,7 @@ public class API extends RestAssuredAPI{
 		RestAssuredAPI.loadprop(prop);
 	}
 	@Test(enabled=true)
-	public void getData() throws Exception
+	public void getData() throws Exception 
 	{
 		try
 		{
