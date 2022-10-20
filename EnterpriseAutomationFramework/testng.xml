@@ -5,5 +5,5 @@
     <classes>     
       <class name="com.testcases.API"/>
     </classes>
-  </test> <!-- Test -->
+  </test> <!-- Test --> 
 </suite> <!-- Suite -->
