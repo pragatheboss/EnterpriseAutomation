@@ -30,7 +30,7 @@ public class API extends RestAssuredAPI{
 	@Test(enabled=true)
 	public void getData() throws Exception 
 	{
-		try
+		try 
 		{
 			RestAssuredAPI. setURI(baseURI);
 			HashMap<String,String> headers = RestAssuredAPI.defaultHeaders();
