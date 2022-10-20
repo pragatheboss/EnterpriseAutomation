@@ -17,7 +17,7 @@ import io.restassured.response. Response;
 import io.restassured.http.Method;
 import io.restassured.specification.RequestSpecification;
 
-public class RestAssuredAPI extends Library {
+public class RestAssuredAPI extends Library { 
 
 	private static Logger logger =Logger.getLogger(RestAssuredAPI.class.getName());
 	
