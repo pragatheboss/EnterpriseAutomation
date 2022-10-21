@@ -106,3 +106,39 @@ Completed GET execution quitting
 Completed GET execution quitting
 2022-10-20 12:54:25 INFO  API:51 -
 Completed GET execution quitting
+2022-10-20 17:16:45 INFO  API:51 -
+Completed GET execution quitting
+2022-10-20 17:17:31 INFO  CreateOrder:45 -**************TEST CASE STARTS**************************
+2022-10-20 17:19:08 INFO  CreateOrder:45 -**************TEST CASE STARTS**************************
+2022-10-20 17:20:03 ERROR CreateOrder:158 -Exception Message from Test
+There was an issue with the WebElement to be located by the locator:
+id~email
+Clue:Either WebElemnt does not exist in App or locator information in OR.Java is incorrect. See below for more information
+Expected condition failed: waiting for visibility of element located by By.id: email (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Pragadeeswarans-MacBook-Air.local', ip: 'fe80:0:0:0:819:879c:475b:d0b1%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.6', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: /var/folders/j8/71rq0p8n0z9...}, goog:chromeOptions: {debuggerAddress: localhost:50115}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:50115/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 850cac748f35aa1a81be698204e0cdfb
+2022-10-20 17:20:03 INFO  CreateOrder:163 -Completed Execution of Test Class : com.testcases.CreateOrder
+2022-10-20 17:20:03 INFO  CreateOrder:164 -Completed Execution of Test case : Method : createOrder
+2022-10-20 17:20:03 INFO  CreateOrder:168 -Test case Starting Time : [{createOrder=10/20/2022 05:19:08}]
+2022-10-20 17:20:03 INFO  CreateOrder:169 -Test case Ending Time : [{createOrder=10/20/2022 05:20:03}]
+2022-10-20 17:20:45 INFO  CreateOrder:45 -**************TEST CASE STARTS**************************
+2022-10-20 17:24:01 INFO  CreateOrder:163 -Completed Execution of Test Class : com.testcases.CreateOrder
+2022-10-20 17:24:01 INFO  CreateOrder:164 -Completed Execution of Test case : Method : createOrder
+2022-10-20 17:24:01 INFO  CreateOrder:168 -Test case Starting Time : [{createOrder=10/20/2022 05:20:45}]
+2022-10-20 17:24:01 INFO  CreateOrder:169 -Test case Ending Time : [{createOrder=10/20/2022 05:24:01}]
+2022-10-20 18:13:56 INFO  API:51 -
+Completed GET execution quitting
+2022-10-21 23:06:37 INFO  API:51 -
+Completed GET execution quitting
+2022-10-21 23:14:33 INFO  API:77 -Exception message from testCannot invoke "Object.toString()" because "type" is null
+2022-10-21 23:14:33 INFO  API:82 -
+Completed GET execution quitting
+2022-10-21 23:25:59 INFO  API:78 -Exception message from testCannot invoke "Object.toString()" because "type" is null
+2022-10-21 23:25:59 INFO  API:83 -
+Completed GET execution quitting
+2022-10-21 23:40:33 INFO  API:79 -Exception message from testCannot invoke "Object.toString()" because "type" is null
+2022-10-21 23:40:33 INFO  API:84 -
+Completed GET execution quitting

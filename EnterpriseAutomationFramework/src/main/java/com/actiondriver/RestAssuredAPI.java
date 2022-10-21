@@ -13,6 +13,7 @@ import com.utility.Library;
 
 import io.restassured.RestAssured;
 import io.restassured.response. Response;
+import io.restassured.http.ContentType;
 //import io.restassured.http.ContentType;
 import io.restassured.http.Method;
 import io.restassured.specification.RequestSpecification;
@@ -91,5 +92,16 @@ public class RestAssuredAPI extends Library {
 	return response.jsonPath().getList(responsekey);
 	}
 	
+	public static void setContentType(String contentType)
+	{
+		try
+		{
+			System.out.println(RestAssured.given().contentType(ContentType.JSON));
+		}
+		catch(Exception ex)
+		{
+			logger.info("Getting Exception"+ex);
+		}
+	}
 
 }
