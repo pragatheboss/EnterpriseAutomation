@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.FileInputStream;
 //import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.net.URL;
 //import java.nio.file.Files;
 //import java.nio.file.Path;
 //import java.text.SimpleDateFormat;
@@ -33,6 +34,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeDriverService;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -41,6 +43,11 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 //import com.google.common.io.Files;
 import com.utility.Constants;
 import com.utility.Library;
+
+
+import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.remote.MobileCapabilityType;
 
 
 public class Web extends Library 
@@ -54,13 +61,9 @@ public class Web extends Library
 	public static String email="";
 	public static String password="";
 	
-	 
-		
+	public static String platform="";
+	
 	public static final Logger logger = Logger.getLogger(Web.class.getName());
-	
-
-	
-	
 	
 	private static String chromedriver =(OS.contains("MAC") ? "./src/test/resources/drivers/chromedriver" : OS.contains("LINUX")?"./src/test/resources/drivers/chromedriver_linux"
             :System.getProperty("user.dir")+"/Drivers");
@@ -69,13 +72,10 @@ public class Web extends Library
 	
 	public static RemoteWebDriver driver = null;
 	
-	/*public static WebDriver getDriver() {return driver.get();}
 	
-	static void setWebDriver(RemoteWebDriver rwdriver) 
-	{
-		driver.set(rwdriver);
-		
-	}*/
+	
+
+
 	
 	//Load Properties
 	public static void loadprop(Properties prop) throws IOException
@@ -88,7 +88,7 @@ public class Web extends Library
 		url= prop.getProperty("URL");
 		email= prop.getProperty("Email");
 		password= prop.getProperty("Password");
-		
+		platform= prop.getProperty("Platform");
 			
 	}
 	
@@ -114,6 +114,7 @@ public class Web extends Library
 			//Thread.sleep(100);
 			js.executeScript("window.scrollBy(0,-300)");
 			//js.executeScript("window.scrollTo(arguments[0],arguments[1])",we.getLocation().x+150,we.getLocation().y+150);
+			
 			return we;
 			
 		}catch(Exception ex)
@@ -175,6 +176,7 @@ public class Web extends Library
 	//Initiate WebDriver
 	public static synchronized void initiateWebDriver() throws IOException
 	{	
+		
 		switch(browser)
 		{
 		case "CHROME":
@@ -194,8 +196,6 @@ public class Web extends Library
 		}
 		
 		System.out.println("Driver:		"+driver);
-		
-	
 		
 	}
 	
@@ -309,12 +309,12 @@ public class Web extends Library
 	{
 		By by= getByObject(locatorTypeAndValue);
 		
-		Duration waitTime;
-		waitTime= Duration.ofSeconds(numberofSeconds);
+		//Duration waitTime;
+		//waitTime= Duration.ofSeconds(numberofSeconds);
 		boolean objectFound;
 		try 
 		{
-			WebDriverWait wait= new WebDriverWait(driver,waitTime);
+			WebDriverWait wait= new WebDriverWait(driver,Duration.ofSeconds(numberofSeconds));
 			wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(by));
 			objectFound=true;
 			WebElement we=getWebElement(driver,locatorTypeAndValue,true,numberofSeconds);

@@ -3,19 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.testcases.API">
+      <class name="com.testcases.MobileCreateOrder">
         <methods>
-          <include name="getData"/>
-          <include name="loadProp"/>
+          <include name="CreateOrder"/>
         </methods>
-      </class> <!-- com.testcases.API -->
-      <class name="com.testcases.CreateOrder">
-        <methods>
-          <include name="createOrder"/>
-          <include name="loadProp"/>
-          <include name="afterTest"/>
-        </methods>
-      </class> <!-- com.testcases.CreateOrder -->
+      </class> <!-- com.testcases.MobileCreateOrder -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

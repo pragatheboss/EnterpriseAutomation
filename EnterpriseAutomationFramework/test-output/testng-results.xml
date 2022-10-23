@@ -1,21 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-21T23:40:32 BST" name="Default suite" finished-at="2022-10-21T23:40:33 BST" duration-ms="1250">
+  <suite started-at="2022-10-23T15:50:45 BST" name="Default suite" finished-at="2022-10-23T15:53:06 BST" duration-ms="140875">
     <groups>
     </groups>
-    <test started-at="2022-10-21T23:40:32 BST" name="Default test" finished-at="2022-10-21T23:40:33 BST" duration-ms="1250">
-      <class name="com.testcases.API">
-        <test-method is-config="true" signature="loadProp()[pri:0, instance:com.testcases.API@6c7a164b]" started-at="2022-10-21T23:40:32 BST" name="loadProp" finished-at="2022-10-21T23:40:32 BST" duration-ms="4" status="PASS">
+    <test started-at="2022-10-23T15:50:45 BST" name="Default test" finished-at="2022-10-23T15:53:06 BST" duration-ms="140875">
+      <class name="com.testcases.MobileCreateOrder">
+        <test-method is-config="true" signature="loadProp()[pri:0, instance:com.testcases.MobileCreateOrder@275bf9b3]" started-at="2022-10-23T15:50:45 BST" name="loadProp" finished-at="2022-10-23T15:50:45 BST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadProp -->
-        <test-method signature="postData()[pri:0, instance:com.testcases.API@6c7a164b]" started-at="2022-10-21T23:40:32 BST" name="postData" finished-at="2022-10-21T23:40:33 BST" duration-ms="1231" status="PASS">
+        <test-method signature="createOrder(java.lang.reflect.Method)[pri:0, instance:com.testcases.MobileCreateOrder@275bf9b3]" started-at="2022-10-23T15:50:45 BST" name="createOrder" finished-at="2022-10-23T15:53:05 BST" duration-ms="140520" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.testcases.MobileCreateOrder.createOrder(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- postData -->
-      </class> <!-- com.testcases.API -->
+        </test-method> <!-- createOrder -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.testcases.MobileCreateOrder@275bf9b3]" started-at="2022-10-23T15:53:05 BST" name="afterTest" finished-at="2022-10-23T15:53:06 BST" duration-ms="328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.testcases.MobileCreateOrder -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

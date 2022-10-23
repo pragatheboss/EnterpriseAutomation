@@ -142,3 +142,303 @@ Completed GET execution quitting
 2022-10-21 23:40:33 INFO  API:79 -Exception message from testCannot invoke "Object.toString()" because "type" is null
 2022-10-21 23:40:33 INFO  API:84 -
 Completed GET execution quitting
+2022-10-22 08:44:31 INFO  API:79 -Exception message from testCannot invoke "Object.toString()" because "type" is null
+2022-10-22 08:44:31 INFO  API:84 -
+Completed GET execution quitting
+2022-10-23 09:26:18 INFO  CreateOrder:45 -**************TEST CASE STARTS**************************
+2022-10-23 13:58:01 INFO  CreateOrder:39 -**************TEST CASE STARTS**************************
+2022-10-23 13:58:15 INFO  CreateOrder:64 -Completed Execution of Test Class : com.testcases.MobileCreateOrder
+2022-10-23 13:58:15 INFO  CreateOrder:65 -Completed Execution of Test case : Method : createOrder
+2022-10-23 13:58:15 INFO  CreateOrder:69 -Test case Starting Time : [{createOrder=10/23/2022 01:58:01}]
+2022-10-23 13:58:15 INFO  CreateOrder:70 -Test case Ending Time : [{createOrder=10/23/2022 01:58:15}]
+2022-10-23 13:59:30 INFO  CreateOrder:39 -**************TEST CASE STARTS**************************
+2022-10-23 13:59:45 INFO  CreateOrder:64 -Completed Execution of Test Class : com.testcases.MobileCreateOrder
+2022-10-23 13:59:45 INFO  CreateOrder:65 -Completed Execution of Test case : Method : createOrder
+2022-10-23 13:59:45 INFO  CreateOrder:69 -Test case Starting Time : [{createOrder=10/23/2022 01:59:30}]
+2022-10-23 13:59:45 INFO  CreateOrder:70 -Test case Ending Time : [{createOrder=10/23/2022 01:59:45}]
+2022-10-23 14:02:14 INFO  CreateOrder:39 -**************TEST CASE STARTS**************************
+2022-10-23 14:03:23 INFO  CreateOrder:39 -**************TEST CASE STARTS**************************
+2022-10-23 14:04:01 INFO  CreateOrder:39 -**************TEST CASE STARTS**************************
+2022-10-23 14:04:01 ERROR CreateOrder:59 -Exception Message from TestThe path to the driver executable The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from https://chromedriver.storage.googleapis.com/index.html
+2022-10-23 14:04:01 INFO  CreateOrder:64 -Completed Execution of Test Class : com.testcases.MobileCreateOrder
+2022-10-23 14:04:01 INFO  CreateOrder:65 -Completed Execution of Test case : Method : createOrder
+2022-10-23 14:04:01 INFO  CreateOrder:69 -Test case Starting Time : [{createOrder=10/23/2022 02:04:01}]
+2022-10-23 14:04:01 INFO  CreateOrder:70 -Test case Ending Time : [{createOrder=10/23/2022 02:04:01}]
+2022-10-23 14:14:18 INFO  CreateOrder:40 -**************TEST CASE STARTS**************************
+2022-10-23 14:14:28 INFO  CreateOrder:65 -Completed Execution of Test Class : com.testcases.MobileCreateOrder
+2022-10-23 14:14:28 INFO  CreateOrder:66 -Completed Execution of Test case : Method : createOrder
+2022-10-23 14:14:28 INFO  CreateOrder:70 -Test case Starting Time : [{createOrder=10/23/2022 02:14:18}]
+2022-10-23 14:14:28 INFO  CreateOrder:71 -Test case Ending Time : [{createOrder=10/23/2022 02:14:28}]
+2022-10-23 14:17:36 INFO  CreateOrder:40 -**************TEST CASE STARTS**************************
+2022-10-23 14:17:40 ERROR CreateOrder:60 -Exception Message from TestNodeJS is either not installed or its executable not present in PATH
+2022-10-23 14:17:40 INFO  CreateOrder:65 -Completed Execution of Test Class : com.testcases.MobileCreateOrder
+2022-10-23 14:17:40 INFO  CreateOrder:66 -Completed Execution of Test case : Method : createOrder
+2022-10-23 14:17:40 INFO  CreateOrder:70 -Test case Starting Time : [{createOrder=10/23/2022 02:17:36}]
+2022-10-23 14:17:40 INFO  CreateOrder:71 -Test case Ending Time : [{createOrder=10/23/2022 02:17:40}]
+2022-10-23 14:19:31 INFO  CreateOrder:40 -**************TEST CASE STARTS**************************
+2022-10-23 14:19:31 ERROR CreateOrder:60 -Exception Message from TestNodeJS is either not installed or its executable not present in PATH
+2022-10-23 14:19:31 INFO  CreateOrder:65 -Completed Execution of Test Class : com.testcases.MobileCreateOrder
+2022-10-23 14:19:31 INFO  CreateOrder:66 -Completed Execution of Test case : Method : createOrder
+2022-10-23 14:19:31 INFO  CreateOrder:70 -Test case Starting Time : [{createOrder=10/23/2022 02:19:31}]
+2022-10-23 14:19:31 INFO  CreateOrder:71 -Test case Ending Time : [{createOrder=10/23/2022 02:19:31}]
+2022-10-23 14:21:55 INFO  CreateOrder:40 -**************TEST CASE STARTS**************************
+2022-10-23 14:21:55 ERROR CreateOrder:60 -Exception Message from TestNodeJS is either not installed or its executable not present in PATH
+2022-10-23 14:21:55 INFO  CreateOrder:65 -Completed Execution of Test Class : com.testcases.MobileCreateOrder
+2022-10-23 14:21:55 INFO  CreateOrder:66 -Completed Execution of Test case : Method : createOrder
+2022-10-23 14:21:55 INFO  CreateOrder:70 -Test case Starting Time : [{createOrder=10/23/2022 02:21:55}]
+2022-10-23 14:21:55 INFO  CreateOrder:71 -Test case Ending Time : [{createOrder=10/23/2022 02:21:55}]
+2022-10-23 14:22:53 INFO  CreateOrder:40 -**************TEST CASE STARTS**************************
+2022-10-23 14:22:56 ERROR CreateOrder:60 -Exception Message from TestNodeJS is either not installed or its executable not present in PATH
+2022-10-23 14:22:56 INFO  CreateOrder:65 -Completed Execution of Test Class : com.testcases.MobileCreateOrder
+2022-10-23 14:22:56 INFO  CreateOrder:66 -Completed Execution of Test case : Method : createOrder
+2022-10-23 14:22:56 INFO  CreateOrder:70 -Test case Starting Time : [{createOrder=10/23/2022 02:22:53}]
+2022-10-23 14:22:56 INFO  CreateOrder:71 -Test case Ending Time : [{createOrder=10/23/2022 02:22:56}]
+2022-10-23 14:27:17 INFO  CreateOrder:40 -**************TEST CASE STARTS**************************
+2022-10-23 14:27:30 INFO  CreateOrder:65 -Completed Execution of Test Class : com.testcases.MobileCreateOrder
+2022-10-23 14:27:30 INFO  CreateOrder:66 -Completed Execution of Test case : Method : createOrder
+2022-10-23 14:27:30 INFO  CreateOrder:70 -Test case Starting Time : [{createOrder=10/23/2022 02:27:17}]
+2022-10-23 14:27:30 INFO  CreateOrder:71 -Test case Ending Time : [{createOrder=10/23/2022 02:27:30}]
+2022-10-23 14:29:11 INFO  CreateOrder:40 -**************TEST CASE STARTS**************************
+2022-10-23 14:29:25 INFO  CreateOrder:65 -Completed Execution of Test Class : com.testcases.MobileCreateOrder
+2022-10-23 14:29:25 INFO  CreateOrder:66 -Completed Execution of Test case : Method : createOrder
+2022-10-23 14:29:25 INFO  CreateOrder:70 -Test case Starting Time : [{createOrder=10/23/2022 02:29:11}]
+2022-10-23 14:29:25 INFO  CreateOrder:71 -Test case Ending Time : [{createOrder=10/23/2022 02:29:25}]
+2022-10-23 14:34:10 INFO  CreateOrder:40 -**************TEST CASE STARTS**************************
+2022-10-23 14:34:14 ERROR CreateOrder:60 -Exception Message from TestThe requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Pragadeeswarans-MacBook-Air.local', ip: 'fe80:0:0:0:1ca7:8d38:591b:1578%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.6', java.version: '17.0.4.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [e52d6348-e4ff-48c3-95f6-4044c08be370, maximizeCurrentWindow {}]
+Capabilities {appium:databaseEnabled: false, appium:desired: {capabilityname:browsername: value:CHROME, capabilityname:chromedriverExecutable: value:/Users/praga/eclipse-..., capabilityname:deviceName: value:Pixel, capabilityname:platformName: value:Android, capabilityname:platformVersion: value:11, capabilityname:udid: value:emulator-5554, platformName: android}, appium:deviceApiLevel: 30, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone_arm64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 440, appium:deviceScreenSize: 1080x2280, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.75, appium:platformVersion: 11, appium:statBarHeight: 66, appium:takesScreenshot: true, appium:viewportRect: {height: 2082, left: 0, top: 66, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, capabilityname:browsername: value:CHROME, capabilityname:chromedriverExecutable: value:/Users/praga/eclipse-..., capabilityname:deviceName: value:Pixel, capabilityname:platformName: value:Android, capabilityname:platformVersion: value:11, capabilityname:udid: value:emulator-5554, platformName: android}
+Session ID: e52d6348-e4ff-48c3-95f6-4044c08be370
+2022-10-23 14:34:14 INFO  CreateOrder:65 -Completed Execution of Test Class : com.testcases.MobileCreateOrder
+2022-10-23 14:34:14 INFO  CreateOrder:66 -Completed Execution of Test case : Method : createOrder
+2022-10-23 14:34:14 INFO  CreateOrder:70 -Test case Starting Time : [{createOrder=10/23/2022 02:34:10}]
+2022-10-23 14:34:14 INFO  CreateOrder:71 -Test case Ending Time : [{createOrder=10/23/2022 02:34:14}]
+2022-10-23 14:35:17 INFO  CreateOrder:40 -**************TEST CASE STARTS**************************
+2022-10-23 14:35:21 ERROR CreateOrder:60 -Exception Message from TestCould not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: No Chromedriver found that can automate Chrome '106.0.5249'. You could also try to enable automated chromedrivers download server feature. See https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/web/chromedriver.md for more details
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Pragadeeswarans-MacBook-Air.local', ip: 'fe80:0:0:0:1ca7:8d38:591b:1578%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.6', java.version: '17.0.4.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{browserName=CHROME, capabilityname:chromedriverExecutable=value:/Users/praga/eclipse-workspace/sample/src/test/resources/chromedriver, capabilityname:deviceName=value:Pixel, capabilityname:platformName=value:Android, capabilityname:platformVersion=value:11, capabilityname:udid=value:emulator-5554, platformName=ANDROID}], desiredCapabilities=Capabilities {browserName: CHROME, capabilityname:chromedriverExecutable: value:/Users/praga/eclipse-..., capabilityname:deviceName: value:Pixel, capabilityname:platformName: value:Android, capabilityname:platformVersion: value:11, capabilityname:udid: value:emulator-5554, platformName: ANDROID}}]
+Capabilities {}
+2022-10-23 14:35:21 INFO  CreateOrder:65 -Completed Execution of Test Class : com.testcases.MobileCreateOrder
+2022-10-23 14:35:21 INFO  CreateOrder:66 -Completed Execution of Test case : Method : createOrder
+2022-10-23 14:35:21 INFO  CreateOrder:70 -Test case Starting Time : [{createOrder=10/23/2022 02:35:17}]
+2022-10-23 14:35:21 INFO  CreateOrder:71 -Test case Ending Time : [{createOrder=10/23/2022 02:35:21}]
+2022-10-23 14:35:47 INFO  CreateOrder:40 -**************TEST CASE STARTS**************************
+2022-10-23 14:36:00 INFO  CreateOrder:65 -Completed Execution of Test Class : com.testcases.MobileCreateOrder
+2022-10-23 14:36:00 INFO  CreateOrder:66 -Completed Execution of Test case : Method : createOrder
+2022-10-23 14:36:00 INFO  CreateOrder:70 -Test case Starting Time : [{createOrder=10/23/2022 02:35:47}]
+2022-10-23 14:36:00 INFO  CreateOrder:71 -Test case Ending Time : [{createOrder=10/23/2022 02:36:00}]
+2022-10-23 14:36:26 INFO  CreateOrder:40 -**************TEST CASE STARTS**************************
+2022-10-23 14:36:31 ERROR CreateOrder:60 -Exception Message from TestThe requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Pragadeeswarans-MacBook-Air.local', ip: 'fe80:0:0:0:1ca7:8d38:591b:1578%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.6', java.version: '17.0.4.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [ff4e4a32-3d6d-413d-bbac-92ad9aefef79, maximizeCurrentWindow {}]
+Capabilities {appium:browsername: CHROME, appium:chromedriverExecutable: /Users/praga/eclipse-worksp..., appium:databaseEnabled: false, appium:desired: {browsername: CHROME, chromedriverExecutable: /Users/praga/eclipse-worksp..., deviceName: Pixel, platformName: android, platformVersion: 11, udid: emulator-5554}, appium:deviceApiLevel: 30, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone_arm64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 440, appium:deviceScreenSize: 1080x2280, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.75, appium:platformVersion: 11, appium:statBarHeight: 66, appium:takesScreenshot: true, appium:udid: emulator-5554, appium:viewportRect: {height: 2082, left: 0, top: 66, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: android}
+Session ID: ff4e4a32-3d6d-413d-bbac-92ad9aefef79
+2022-10-23 14:36:31 INFO  CreateOrder:65 -Completed Execution of Test Class : com.testcases.MobileCreateOrder
+2022-10-23 14:36:31 INFO  CreateOrder:66 -Completed Execution of Test case : Method : createOrder
+2022-10-23 14:36:31 INFO  CreateOrder:70 -Test case Starting Time : [{createOrder=10/23/2022 02:36:26}]
+2022-10-23 14:36:31 INFO  CreateOrder:71 -Test case Ending Time : [{createOrder=10/23/2022 02:36:31}]
+2022-10-23 14:36:41 INFO  CreateOrder:40 -**************TEST CASE STARTS**************************
+2022-10-23 14:36:45 ERROR CreateOrder:60 -Exception Message from TestThe requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Pragadeeswarans-MacBook-Air.local', ip: 'fe80:0:0:0:1ca7:8d38:591b:1578%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.6', java.version: '17.0.4.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [882b1212-0550-4538-b10d-d9ccbcc3fb5e, maximizeCurrentWindow {}]
+Capabilities {appium:browsername: CHROME, appium:chromedriverExecutable: /Users/praga/eclipse-worksp..., appium:databaseEnabled: false, appium:desired: {browsername: CHROME, chromedriverExecutable: /Users/praga/eclipse-worksp..., deviceName: Pixel, platformName: android, platformVersion: 11, udid: emulator-5554}, appium:deviceApiLevel: 30, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone_arm64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 440, appium:deviceScreenSize: 1080x2280, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.75, appium:platformVersion: 11, appium:statBarHeight: 66, appium:takesScreenshot: true, appium:udid: emulator-5554, appium:viewportRect: {height: 2082, left: 0, top: 66, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: android}
+Session ID: 882b1212-0550-4538-b10d-d9ccbcc3fb5e
+2022-10-23 14:36:45 INFO  CreateOrder:65 -Completed Execution of Test Class : com.testcases.MobileCreateOrder
+2022-10-23 14:36:45 INFO  CreateOrder:66 -Completed Execution of Test case : Method : createOrder
+2022-10-23 14:36:45 INFO  CreateOrder:70 -Test case Starting Time : [{createOrder=10/23/2022 02:36:41}]
+2022-10-23 14:36:45 INFO  CreateOrder:71 -Test case Ending Time : [{createOrder=10/23/2022 02:36:45}]
+2022-10-23 14:36:55 INFO  CreateOrder:40 -**************TEST CASE STARTS**************************
+2022-10-23 14:37:00 ERROR CreateOrder:60 -Exception Message from TestThe requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Pragadeeswarans-MacBook-Air.local', ip: 'fe80:0:0:0:1ca7:8d38:591b:1578%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.6', java.version: '17.0.4.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [7670d192-cbba-4ef4-b7e5-2d7a49c1de33, maximizeCurrentWindow {}]
+Capabilities {appium:browsername: CHROME, appium:chromedriverExecutable: /Users/praga/eclipse-worksp..., appium:databaseEnabled: false, appium:desired: {browsername: CHROME, chromedriverExecutable: /Users/praga/eclipse-worksp..., deviceName: Pixel, platformName: android, platformVersion: 11, udid: emulator-5554}, appium:deviceApiLevel: 30, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone_arm64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 440, appium:deviceScreenSize: 1080x2280, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.75, appium:platformVersion: 11, appium:statBarHeight: 66, appium:takesScreenshot: true, appium:udid: emulator-5554, appium:viewportRect: {height: 2082, left: 0, top: 66, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: android}
+Session ID: 7670d192-cbba-4ef4-b7e5-2d7a49c1de33
+2022-10-23 14:37:00 INFO  CreateOrder:65 -Completed Execution of Test Class : com.testcases.MobileCreateOrder
+2022-10-23 14:37:00 INFO  CreateOrder:66 -Completed Execution of Test case : Method : createOrder
+2022-10-23 14:37:00 INFO  CreateOrder:70 -Test case Starting Time : [{createOrder=10/23/2022 02:36:55}]
+2022-10-23 14:37:00 INFO  CreateOrder:71 -Test case Ending Time : [{createOrder=10/23/2022 02:37:00}]
+2022-10-23 14:37:42 INFO  CreateOrder:40 -**************TEST CASE STARTS**************************
+2022-10-23 14:37:57 INFO  CreateOrder:65 -Completed Execution of Test Class : com.testcases.MobileCreateOrder
+2022-10-23 14:37:57 INFO  CreateOrder:66 -Completed Execution of Test case : Method : createOrder
+2022-10-23 14:37:57 INFO  CreateOrder:70 -Test case Starting Time : [{createOrder=10/23/2022 02:37:42}]
+2022-10-23 14:37:57 INFO  CreateOrder:71 -Test case Ending Time : [{createOrder=10/23/2022 02:37:57}]
+2022-10-23 14:39:02 INFO  CreateOrder:40 -**************TEST CASE STARTS**************************
+2022-10-23 14:39:16 INFO  CreateOrder:65 -Completed Execution of Test Class : com.testcases.MobileCreateOrder
+2022-10-23 14:39:16 INFO  CreateOrder:66 -Completed Execution of Test case : Method : createOrder
+2022-10-23 14:39:16 INFO  CreateOrder:70 -Test case Starting Time : [{createOrder=10/23/2022 02:39:02}]
+2022-10-23 14:39:16 INFO  CreateOrder:71 -Test case Ending Time : [{createOrder=10/23/2022 02:39:16}]
+2022-10-23 14:39:44 INFO  CreateOrder:40 -**************TEST CASE STARTS**************************
+2022-10-23 14:39:49 ERROR CreateOrder:60 -Exception Message from TestCould not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: No Chromedriver found that can automate Chrome '106.0.5249'. You could also try to enable automated chromedrivers download server feature. See https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/web/chromedriver.md for more details
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Pragadeeswarans-MacBook-Air.local', ip: 'fe80:0:0:0:1ca7:8d38:591b:1578%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.6', java.version: '17.0.4.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{browserName=CHROME, appium:deviceName=Pixel, platformName=Android, appium:platformVersion=11, appium:udid=emulator-5554}], desiredCapabilities=Capabilities {browserName: CHROME, deviceName: Pixel, platformName: Android, platformVersion: 11, udid: emulator-5554}}]
+Capabilities {}
+2022-10-23 14:39:49 INFO  CreateOrder:65 -Completed Execution of Test Class : com.testcases.MobileCreateOrder
+2022-10-23 14:39:49 INFO  CreateOrder:66 -Completed Execution of Test case : Method : createOrder
+2022-10-23 14:39:49 INFO  CreateOrder:70 -Test case Starting Time : [{createOrder=10/23/2022 02:39:44}]
+2022-10-23 14:39:49 INFO  CreateOrder:71 -Test case Ending Time : [{createOrder=10/23/2022 02:39:49}]
+2022-10-23 14:46:58 INFO  CreateOrder:40 -**************TEST CASE STARTS**************************
+2022-10-23 14:47:03 ERROR CreateOrder:60 -Exception Message from TestCould not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: No Chromedriver found that can automate Chrome '106.0.5249'. You could also try to enable automated chromedrivers download server feature. See https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/web/chromedriver.md for more details
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Pragadeeswarans-MacBook-Air.local', ip: 'fe80:0:0:0:1ca7:8d38:591b:1578%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.6', java.version: '17.0.4.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{browserName=CHROME, appium:deviceName=Pixel, platformName=Android, appium:platformVersion=11, appium:udid=emulator-5554}], desiredCapabilities=Capabilities {browserName: CHROME, deviceName: Pixel, platformName: Android, platformVersion: 11, udid: emulator-5554}}]
+Capabilities {}
+2022-10-23 14:47:03 INFO  CreateOrder:65 -Completed Execution of Test Class : com.testcases.MobileCreateOrder
+2022-10-23 14:47:03 INFO  CreateOrder:66 -Completed Execution of Test case : Method : createOrder
+2022-10-23 14:47:03 INFO  CreateOrder:70 -Test case Starting Time : [{createOrder=10/23/2022 02:46:58}]
+2022-10-23 14:47:03 INFO  CreateOrder:71 -Test case Ending Time : [{createOrder=10/23/2022 02:47:03}]
+2022-10-23 14:47:33 INFO  CreateOrder:40 -**************TEST CASE STARTS**************************
+2022-10-23 14:47:36 ERROR CreateOrder:60 -Exception Message from TestCould not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: No Chromedriver found that can automate Chrome '106.0.5249'. You could also try to enable automated chromedrivers download server feature. See https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/web/chromedriver.md for more details
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Pragadeeswarans-MacBook-Air.local', ip: 'fe80:0:0:0:1ca7:8d38:591b:1578%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.6', java.version: '17.0.4.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{browserName=CHROME, browserVersion=106.0.5249, appium:deviceName=Pixel, platformName=Android, appium:platformVersion=11, appium:udid=emulator-5554}], desiredCapabilities=Capabilities {browserName: CHROME, browserVersion: 106.0.5249, deviceName: Pixel, platformName: Android, platformVersion: 11, udid: emulator-5554}}]
+Capabilities {}
+2022-10-23 14:47:36 INFO  CreateOrder:65 -Completed Execution of Test Class : com.testcases.MobileCreateOrder
+2022-10-23 14:47:36 INFO  CreateOrder:66 -Completed Execution of Test case : Method : createOrder
+2022-10-23 14:47:36 INFO  CreateOrder:70 -Test case Starting Time : [{createOrder=10/23/2022 02:47:33}]
+2022-10-23 14:47:36 INFO  CreateOrder:71 -Test case Ending Time : [{createOrder=10/23/2022 02:47:36}]
+2022-10-23 14:48:04 INFO  CreateOrder:40 -**************TEST CASE STARTS**************************
+2022-10-23 14:48:18 INFO  CreateOrder:65 -Completed Execution of Test Class : com.testcases.MobileCreateOrder
+2022-10-23 14:48:18 INFO  CreateOrder:66 -Completed Execution of Test case : Method : createOrder
+2022-10-23 14:48:18 INFO  CreateOrder:70 -Test case Starting Time : [{createOrder=10/23/2022 02:48:04}]
+2022-10-23 14:48:18 INFO  CreateOrder:71 -Test case Ending Time : [{createOrder=10/23/2022 02:48:18}]
+2022-10-23 14:49:21 INFO  CreateOrder:40 -**************TEST CASE STARTS**************************
+2022-10-23 14:49:35 INFO  CreateOrder:65 -Completed Execution of Test Class : com.testcases.MobileCreateOrder
+2022-10-23 14:49:35 INFO  CreateOrder:66 -Completed Execution of Test case : Method : createOrder
+2022-10-23 14:49:35 INFO  CreateOrder:70 -Test case Starting Time : [{createOrder=10/23/2022 02:49:21}]
+2022-10-23 14:49:35 INFO  CreateOrder:71 -Test case Ending Time : [{createOrder=10/23/2022 02:49:35}]
+2022-10-23 14:49:45 INFO  CreateOrder:40 -**************TEST CASE STARTS**************************
+2022-10-23 14:49:50 ERROR CreateOrder:60 -Exception Message from TestCould not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: No Chromedriver found that can automate Chrome '106.0.5249'. You could also try to enable automated chromedrivers download server feature. See https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/web/chromedriver.md for more details
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Pragadeeswarans-MacBook-Air.local', ip: 'fe80:0:0:0:1ca7:8d38:591b:1578%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.6', java.version: '17.0.4.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{browserName=CHROME, appium:deviceName=Pixel, platformName=Android, appium:platformVersion=11, appium:udid=emulator-5554}], desiredCapabilities=Capabilities {browserName: CHROME, deviceName: Pixel, platformName: Android, platformVersion: 11, udid: emulator-5554}}]
+Capabilities {}
+2022-10-23 14:49:50 INFO  CreateOrder:65 -Completed Execution of Test Class : com.testcases.MobileCreateOrder
+2022-10-23 14:49:50 INFO  CreateOrder:66 -Completed Execution of Test case : Method : createOrder
+2022-10-23 14:49:50 INFO  CreateOrder:70 -Test case Starting Time : [{createOrder=10/23/2022 02:49:45}]
+2022-10-23 14:49:50 INFO  CreateOrder:71 -Test case Ending Time : [{createOrder=10/23/2022 02:49:50}]
+2022-10-23 14:49:57 INFO  CreateOrder:40 -**************TEST CASE STARTS**************************
+2022-10-23 14:50:00 ERROR CreateOrder:60 -Exception Message from TestCould not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: No Chromedriver found that can automate Chrome '106.0.5249'. You could also try to enable automated chromedrivers download server feature. See https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/web/chromedriver.md for more details
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Pragadeeswarans-MacBook-Air.local', ip: 'fe80:0:0:0:1ca7:8d38:591b:1578%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.6', java.version: '17.0.4.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{browserName=CHROME, appium:deviceName=Pixel, platformName=Android, appium:platformVersion=11, appium:udid=emulator-5554}], desiredCapabilities=Capabilities {browserName: CHROME, deviceName: Pixel, platformName: Android, platformVersion: 11, udid: emulator-5554}}]
+Capabilities {}
+2022-10-23 14:50:00 INFO  CreateOrder:65 -Completed Execution of Test Class : com.testcases.MobileCreateOrder
+2022-10-23 14:50:00 INFO  CreateOrder:66 -Completed Execution of Test case : Method : createOrder
+2022-10-23 14:50:00 INFO  CreateOrder:70 -Test case Starting Time : [{createOrder=10/23/2022 02:49:57}]
+2022-10-23 14:50:00 INFO  CreateOrder:71 -Test case Ending Time : [{createOrder=10/23/2022 02:50:00}]
+2022-10-23 14:51:13 INFO  CreateOrder:40 -**************TEST CASE STARTS**************************
+2022-10-23 14:51:17 ERROR CreateOrder:60 -Exception Message from TestCould not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Trying to use a chromedriver binary at the path ./src/test/resources/drivers/chromedriver, but it doesn't exist!
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Pragadeeswarans-MacBook-Air.local', ip: 'fe80:0:0:0:1ca7:8d38:591b:1578%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.6', java.version: '17.0.4.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{browserName=CHROME, appium:chromedriverExecutable=./src/test/resources/drivers/chromedriver, appium:deviceName=Pixel, platformName=Android, appium:platformVersion=11, appium:udid=emulator-5554}], desiredCapabilities=Capabilities {browserName: CHROME, chromedriverExecutable: ./src/test/resources/driver..., deviceName: Pixel, platformName: Android, platformVersion: 11, udid: emulator-5554}}]
+Capabilities {}
+2022-10-23 14:51:17 INFO  CreateOrder:65 -Completed Execution of Test Class : com.testcases.MobileCreateOrder
+2022-10-23 14:51:17 INFO  CreateOrder:66 -Completed Execution of Test case : Method : createOrder
+2022-10-23 14:51:17 INFO  CreateOrder:70 -Test case Starting Time : [{createOrder=10/23/2022 02:51:13}]
+2022-10-23 14:51:17 INFO  CreateOrder:71 -Test case Ending Time : [{createOrder=10/23/2022 02:51:17}]
+2022-10-23 14:52:22 INFO  CreateOrder:40 -**************TEST CASE STARTS**************************
+2022-10-23 14:52:26 ERROR CreateOrder:60 -Exception Message from TestCould not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Trying to use a chromedriver binary at the path ./src/test/resources/drivers/chromedriver, but it doesn't exist!
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Pragadeeswarans-MacBook-Air.local', ip: 'fe80:0:0:0:1ca7:8d38:591b:1578%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.6', java.version: '17.0.4.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{browserName=CHROME, appium:chromedriverExecutable=./src/test/resources/drivers/chromedriver, appium:deviceName=Pixel, platformName=Android, appium:platformVersion=11, appium:udid=emulator-5554}], desiredCapabilities=Capabilities {browserName: CHROME, chromedriverExecutable: ./src/test/resources/driver..., deviceName: Pixel, platformName: Android, platformVersion: 11, udid: emulator-5554}}]
+Capabilities {}
+2022-10-23 14:52:26 INFO  CreateOrder:65 -Completed Execution of Test Class : com.testcases.MobileCreateOrder
+2022-10-23 14:52:26 INFO  CreateOrder:66 -Completed Execution of Test case : Method : createOrder
+2022-10-23 14:52:26 INFO  CreateOrder:70 -Test case Starting Time : [{createOrder=10/23/2022 02:52:23}]
+2022-10-23 14:52:26 INFO  CreateOrder:71 -Test case Ending Time : [{createOrder=10/23/2022 02:52:26}]
+2022-10-23 14:53:14 INFO  CreateOrder:40 -**************TEST CASE STARTS**************************
+2022-10-23 14:53:18 ERROR CreateOrder:60 -Exception Message from TestCould not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Trying to use a chromedriver binary at the path ./src/test/resources/drivers/chromedriver, but it doesn't exist!
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Pragadeeswarans-MacBook-Air.local', ip: 'fe80:0:0:0:1ca7:8d38:591b:1578%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.6', java.version: '17.0.4.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{browserName=CHROME, appium:chromedriverExecutable=./src/test/resources/drivers/chromedriver, appium:deviceName=Pixel, platformName=Android, appium:platformVersion=11, appium:udid=emulator-5554}], desiredCapabilities=Capabilities {browserName: CHROME, chromedriverExecutable: ./src/test/resources/driver..., deviceName: Pixel, platformName: Android, platformVersion: 11, udid: emulator-5554}}]
+Capabilities {}
+2022-10-23 14:53:18 INFO  CreateOrder:65 -Completed Execution of Test Class : com.testcases.MobileCreateOrder
+2022-10-23 14:53:18 INFO  CreateOrder:66 -Completed Execution of Test case : Method : createOrder
+2022-10-23 14:53:18 INFO  CreateOrder:70 -Test case Starting Time : [{createOrder=10/23/2022 02:53:14}]
+2022-10-23 14:53:18 INFO  CreateOrder:71 -Test case Ending Time : [{createOrder=10/23/2022 02:53:18}]
+2022-10-23 14:54:13 INFO  CreateOrder:40 -**************TEST CASE STARTS**************************
+2022-10-23 14:54:17 ERROR CreateOrder:60 -Exception Message from TestCould not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: No Chromedriver found that can automate Chrome '106.0.5249'. You could also try to enable automated chromedrivers download server feature. See https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/web/chromedriver.md for more details
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Pragadeeswarans-MacBook-Air.local', ip: 'fe80:0:0:0:1ca7:8d38:591b:1578%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.6', java.version: '17.0.4.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:ChromeDriverExecutable=/Users/praga/eclipse-workspace/sample/src/test/resources/chromedriver, browserName=CHROME, appium:deviceName=Pixel, platformName=Android, appium:platformVersion=11, appium:udid=emulator-5554}], desiredCapabilities=Capabilities {ChromeDriverExecutable: /Users/praga/eclipse-worksp..., browserName: CHROME, deviceName: Pixel, platformName: Android, platformVersion: 11, udid: emulator-5554}}]
+Capabilities {}
+2022-10-23 14:54:17 INFO  CreateOrder:65 -Completed Execution of Test Class : com.testcases.MobileCreateOrder
+2022-10-23 14:54:17 INFO  CreateOrder:66 -Completed Execution of Test case : Method : createOrder
+2022-10-23 14:54:17 INFO  CreateOrder:70 -Test case Starting Time : [{createOrder=10/23/2022 02:54:13}]
+2022-10-23 14:54:17 INFO  CreateOrder:71 -Test case Ending Time : [{createOrder=10/23/2022 02:54:17}]
+2022-10-23 14:54:34 INFO  CreateOrder:40 -**************TEST CASE STARTS**************************
+2022-10-23 14:54:48 INFO  CreateOrder:65 -Completed Execution of Test Class : com.testcases.MobileCreateOrder
+2022-10-23 14:54:48 INFO  CreateOrder:66 -Completed Execution of Test case : Method : createOrder
+2022-10-23 14:54:48 INFO  CreateOrder:70 -Test case Starting Time : [{createOrder=10/23/2022 02:54:34}]
+2022-10-23 14:54:48 INFO  CreateOrder:71 -Test case Ending Time : [{createOrder=10/23/2022 02:54:48}]
+2022-10-23 14:55:48 INFO  CreateOrder:40 -**************TEST CASE STARTS**************************
+2022-10-23 14:56:07 INFO  CreateOrder:65 -Completed Execution of Test Class : com.testcases.MobileCreateOrder
+2022-10-23 14:56:07 INFO  CreateOrder:66 -Completed Execution of Test case : Method : createOrder
+2022-10-23 14:56:07 INFO  CreateOrder:70 -Test case Starting Time : [{createOrder=10/23/2022 02:55:48}]
+2022-10-23 14:56:07 INFO  CreateOrder:71 -Test case Ending Time : [{createOrder=10/23/2022 02:56:07}]
+2022-10-23 15:01:34 INFO  CreateOrder:41 -**************TEST CASE STARTS**************************
+2022-10-23 15:02:02 INFO  CreateOrder:70 -Completed Execution of Test Class : com.testcases.MobileCreateOrder
+2022-10-23 15:02:02 INFO  CreateOrder:71 -Completed Execution of Test case : Method : createOrder
+2022-10-23 15:02:02 INFO  CreateOrder:75 -Test case Starting Time : [{createOrder=10/23/2022 03:01:34}]
+2022-10-23 15:02:02 INFO  CreateOrder:76 -Test case Ending Time : [{createOrder=10/23/2022 03:02:02}]
+2022-10-23 15:11:50 INFO  CreateOrder:42 -**************TEST CASE STARTS**************************
+2022-10-23 15:14:48 INFO  CreateOrder:42 -**************TEST CASE STARTS**************************
+2022-10-23 15:15:22 INFO  CreateOrder:75 -Completed Execution of Test Class : com.testcases.MobileCreateOrder
+2022-10-23 15:15:22 INFO  CreateOrder:76 -Completed Execution of Test case : Method : createOrder
+2022-10-23 15:15:22 INFO  CreateOrder:80 -Test case Starting Time : [{createOrder=10/23/2022 03:14:48}]
+2022-10-23 15:15:22 INFO  CreateOrder:81 -Test case Ending Time : [{createOrder=10/23/2022 03:15:22}]
+2022-10-23 15:21:27 INFO  CreateOrder:42 -**************TEST CASE STARTS**************************
+2022-10-23 15:22:55 ERROR CreateOrder:156 -Exception Message from Test
+There was an issue with the WebElement to be located by the locator:
+xpath~//i[@class='icon-th-list']
+Clue:Either WebElemnt does not exist in App or locator information in OR.Java is incorrect. See below for more information
+Expected condition failed: waiting for visibility of element located by By.xpath: //i[@class='icon-th-list'] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Pragadeeswarans-MacBook-Air.local', ip: 'fe80:0:0:0:1ca7:8d38:591b:1578%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.6', java.version: '17.0.4.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:appActivity: com.google.android.apps.chr..., appium:appPackage: com.android.chrome, appium:chromedriverExecutable: /Users/praga/eclipse-worksp..., appium:databaseEnabled: false, appium:desired: {browserName: CHROME, chromedriverExecutable: /Users/praga/eclipse-worksp..., deviceName: Pixel, platformName: android, platformVersion: 11, udid: emulator-5554}, appium:deviceApiLevel: 30, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone_arm64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 440, appium:deviceScreenSize: 1080x2280, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.75, appium:platformVersion: 11, appium:statBarHeight: 66, appium:takesScreenshot: true, appium:udid: emulator-5554, appium:viewportRect: {height: 2082, left: 0, top: 66, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, browserName: CHROME, platformName: android}
+Session ID: 68c1d727-9165-4177-b006-3952677eb5b7
+2022-10-23 15:22:55 INFO  CreateOrder:161 -Completed Execution of Test Class : com.testcases.MobileCreateOrder
+2022-10-23 15:22:55 INFO  CreateOrder:162 -Completed Execution of Test case : Method : createOrder
+2022-10-23 15:22:55 INFO  CreateOrder:166 -Test case Starting Time : [{createOrder=10/23/2022 03:21:27}]
+2022-10-23 15:22:55 INFO  CreateOrder:167 -Test case Ending Time : [{createOrder=10/23/2022 03:22:55}]
+2022-10-23 15:30:00 INFO  CreateOrder:42 -**************TEST CASE STARTS**************************
+2022-10-23 15:31:33 ERROR CreateOrder:156 -Exception Message from Test
+There was an issue with the WebElement to be located by the locator:
+xpath~//i[@class='icon-th-list']
+Clue:Either WebElemnt does not exist in App or locator information in OR.Java is incorrect. See below for more information
+Expected condition failed: waiting for visibility of element located by By.xpath: //i[@class='icon-th-list'] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Pragadeeswarans-MacBook-Air.local', ip: 'fe80:0:0:0:1ca7:8d38:591b:1578%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.6', java.version: '17.0.4.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:appActivity: com.google.android.apps.chr..., appium:appPackage: com.android.chrome, appium:chromedriverExecutable: /Users/praga/eclipse-worksp..., appium:databaseEnabled: false, appium:desired: {browserName: CHROME, chromedriverExecutable: /Users/praga/eclipse-worksp..., deviceName: Pixel, platformName: android, platformVersion: 11, udid: emulator-5554}, appium:deviceApiLevel: 30, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone_arm64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 440, appium:deviceScreenSize: 1080x2280, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.75, appium:platformVersion: 11, appium:statBarHeight: 66, appium:takesScreenshot: true, appium:udid: emulator-5554, appium:viewportRect: {height: 2082, left: 0, top: 66, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, browserName: CHROME, platformName: android}
+Session ID: 35310d9c-a065-4a62-9653-3cba319c8466
+2022-10-23 15:31:33 INFO  CreateOrder:161 -Completed Execution of Test Class : com.testcases.MobileCreateOrder
+2022-10-23 15:31:33 INFO  CreateOrder:162 -Completed Execution of Test case : Method : createOrder
+2022-10-23 15:31:33 INFO  CreateOrder:166 -Test case Starting Time : [{createOrder=10/23/2022 03:30:00}]
+2022-10-23 15:31:33 INFO  CreateOrder:167 -Test case Ending Time : [{createOrder=10/23/2022 03:31:33}]
+2022-10-23 15:50:45 INFO  CreateOrder:42 -**************TEST CASE STARTS**************************
+2022-10-23 15:53:05 INFO  CreateOrder:161 -Completed Execution of Test Class : com.testcases.MobileCreateOrder
+2022-10-23 15:53:05 INFO  CreateOrder:162 -Completed Execution of Test case : Method : createOrder
+2022-10-23 15:53:05 INFO  CreateOrder:166 -Test case Starting Time : [{createOrder=10/23/2022 03:50:45}]
+2022-10-23 15:53:05 INFO  CreateOrder:167 -Test case Ending Time : [{createOrder=10/23/2022 03:53:05}]
