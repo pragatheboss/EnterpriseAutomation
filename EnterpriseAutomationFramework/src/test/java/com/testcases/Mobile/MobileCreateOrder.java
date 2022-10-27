@@ -1,4 +1,4 @@
-package com.testcases;
+package com.testcases.Mobile;
 
 import java.lang.reflect.Method;
 import java.util.Arrays;
@@ -11,6 +11,7 @@ import org.testng.annotations.Test;
 import com.actiondriver.Mobile;
 import com.actiondriver.Web;
 import com.objectrepository.OR;
+import com.testcases.Web.CreateOrder;
 import com.utility.Constants;
 import com.utility.Library;
 
@@ -34,7 +35,7 @@ public class MobileCreateOrder extends Mobile{
 	
 	//@Test
 	
-	public void createOrder(Method testMethod) throws Exception 
+	public void mobilecreateOrder(Method testMethod) throws Exception 
 	{
 	
 	try {		
@@ -144,7 +145,7 @@ public class MobileCreateOrder extends Mobile{
 				//SendMail
 				if(Orderplaced)
 				{
-					Library.sendEmail();
+					//Library.sendEmail();
 				}
 				
 		

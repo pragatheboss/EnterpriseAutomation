@@ -442,3 +442,104 @@ Session ID: 35310d9c-a065-4a62-9653-3cba319c8466
 2022-10-23 15:53:05 INFO  CreateOrder:162 -Completed Execution of Test case : Method : createOrder
 2022-10-23 15:53:05 INFO  CreateOrder:166 -Test case Starting Time : [{createOrder=10/23/2022 03:50:45}]
 2022-10-23 15:53:05 INFO  CreateOrder:167 -Test case Ending Time : [{createOrder=10/23/2022 03:53:05}]
+2022-10-25 21:27:38 INFO  API:79 -Exception message from testCannot invoke "Object.toString()" because "type" is null
+2022-10-25 21:27:38 INFO  API:84 -
+Completed GET execution quitting
+2022-10-25 21:27:38 INFO  CreateOrder:45 -**************TEST CASE STARTS**************************
+2022-10-25 21:29:42 ERROR CreateOrder:158 -Exception Message from Test
+There was an issue with the WebElement to be located by the locator:
+xpath~//i[@class='icon-th-list']
+Clue:Either WebElemnt does not exist in App or locator information in OR.Java is incorrect. See below for more information
+Expected condition failed: waiting for visibility of element located by By.xpath: //i[@class='icon-th-list'] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Pragadeeswarans-MacBook-Air.local', ip: 'fe80:0:0:0:1c5c:e7ea:4bff:345c%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.6', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: /var/folders/j8/71rq0p8n0z9...}, goog:chromeOptions: {debuggerAddress: localhost:50065}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:50065/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 42c04e1a6216caa819caa639adb4b86e
+2022-10-25 21:29:42 INFO  CreateOrder:163 -Completed Execution of Test Class : com.testcases.CreateOrder
+2022-10-25 21:29:42 INFO  CreateOrder:164 -Completed Execution of Test case : Method : webcreateOrder
+2022-10-25 21:29:42 INFO  CreateOrder:168 -Test case Starting Time : [{webcreateOrder=10/25/2022 09:27:38}]
+2022-10-25 21:29:42 INFO  CreateOrder:169 -Test case Ending Time : [{webcreateOrder=10/25/2022 09:29:42}]
+2022-10-25 21:35:02 INFO  API:79 -Exception message from testCannot invoke "Object.toString()" because "type" is null
+2022-10-25 21:35:02 INFO  API:84 -
+Completed GET execution quitting
+2022-10-25 21:35:02 INFO  CreateOrder:45 -**************TEST CASE STARTS**************************
+2022-10-25 21:38:57 INFO  CreateOrder:163 -Completed Execution of Test Class : com.testcases.CreateOrder
+2022-10-25 21:38:57 INFO  CreateOrder:164 -Completed Execution of Test case : Method : webcreateOrder
+2022-10-25 21:38:57 INFO  CreateOrder:168 -Test case Starting Time : [{webcreateOrder=10/25/2022 09:35:02}]
+2022-10-25 21:38:57 INFO  CreateOrder:169 -Test case Ending Time : [{webcreateOrder=10/25/2022 09:38:57}]
+2022-10-25 21:38:57 INFO  CreateOrder:42 -**************TEST CASE STARTS**************************
+2022-10-25 21:38:57 ERROR CreateOrder:156 -Exception Message from TestCould not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+2022-10-25 21:38:58 INFO  CreateOrder:161 -Completed Execution of Test Class : com.testcases.MobileCreateOrder
+2022-10-25 21:38:58 INFO  CreateOrder:162 -Completed Execution of Test case : Method : mobilecreateOrder
+2022-10-25 21:38:58 INFO  CreateOrder:166 -Test case Starting Time : [{webcreateOrder=10/25/2022 09:35:02, mobilecreateOrder=10/25/2022 09:38:57}]
+2022-10-25 21:38:58 INFO  CreateOrder:167 -Test case Ending Time : [{webcreateOrder=10/25/2022 09:38:57, mobilecreateOrder=10/25/2022 09:38:58}]
+2022-10-25 21:55:26 INFO  API:79 -Exception message from testCannot invoke "Object.toString()" because "type" is null
+2022-10-25 21:55:26 INFO  API:84 -
+Completed GET execution quitting
+2022-10-25 21:55:26 INFO  CreateOrder:45 -**************TEST CASE STARTS**************************
+2022-10-25 21:58:16 INFO  CreateOrder:163 -Completed Execution of Test Class : com.testcases.CreateOrder
+2022-10-25 21:58:16 INFO  CreateOrder:164 -Completed Execution of Test case : Method : webcreateOrder
+2022-10-25 21:58:16 INFO  CreateOrder:168 -Test case Starting Time : [{webcreateOrder=10/25/2022 09:55:26}]
+2022-10-25 21:58:16 INFO  CreateOrder:169 -Test case Ending Time : [{webcreateOrder=10/25/2022 09:58:16}]
+2022-10-25 21:58:16 INFO  CreateOrder:42 -**************TEST CASE STARTS**************************
+2022-10-25 22:01:06 ERROR CreateOrder:156 -Exception Message from Test
+There was an issue with the WebElement to be located by the locator:
+xpath~//span[@id='total_price']
+Clue:Either WebElemnt does not exist in App or locator information in OR.Java is incorrect. See below for more information
+Expected condition failed: waiting for visibility of element located by By.xpath: //span[@id='total_price'] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Pragadeeswarans-MacBook-Air.local', ip: 'fe80:0:0:0:1c5c:e7ea:4bff:345c%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.6', java.version: '17.0.4.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:appActivity: com.google.android.apps.chr..., appium:appPackage: com.android.chrome, appium:chromedriverExecutable: /Users/praga/eclipse-worksp..., appium:databaseEnabled: false, appium:desired: {browserName: CHROME, chromedriverExecutable: /Users/praga/eclipse-worksp..., deviceName: Pixel, platformName: android, platformVersion: 11, udid: emulator-5554}, appium:deviceApiLevel: 30, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone_arm64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 440, appium:deviceScreenSize: 1080x2280, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.75, appium:platformVersion: 11, appium:statBarHeight: 66, appium:takesScreenshot: true, appium:udid: emulator-5554, appium:viewportRect: {height: 2082, left: 0, top: 66, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, browserName: CHROME, platformName: android}
+Session ID: ffd68a22-2e78-4a6b-8e32-b0932819d5d2
+2022-10-25 22:01:06 INFO  CreateOrder:161 -Completed Execution of Test Class : com.testcases.MobileCreateOrder
+2022-10-25 22:01:06 INFO  CreateOrder:162 -Completed Execution of Test case : Method : mobilecreateOrder
+2022-10-25 22:01:06 INFO  CreateOrder:166 -Test case Starting Time : [{webcreateOrder=10/25/2022 09:55:26, mobilecreateOrder=10/25/2022 09:58:16}]
+2022-10-25 22:01:06 INFO  CreateOrder:167 -Test case Ending Time : [{webcreateOrder=10/25/2022 09:58:16, mobilecreateOrder=10/25/2022 10:01:06}]
+2022-10-25 23:08:59 INFO  API:79 -Exception message from testCannot invoke "Object.toString()" because "type" is null
+2022-10-25 23:08:59 INFO  API:84 -
+Completed GET execution quitting
+2022-10-25 23:08:59 INFO  CreateOrder:46 -**************TEST CASE STARTS**************************
+2022-10-25 23:11:43 INFO  CreateOrder:165 -Completed Execution of Test Class : com.testcases.CreateOrder
+2022-10-25 23:11:43 INFO  CreateOrder:166 -Completed Execution of Test case : Method : webcreateOrder
+2022-10-25 23:11:43 INFO  CreateOrder:170 -Test case Starting Time : [{webcreateOrder=10/25/2022 11:08:59}]
+2022-10-25 23:11:43 INFO  CreateOrder:171 -Test case Ending Time : [{webcreateOrder=10/25/2022 11:11:43}]
+2022-10-25 23:11:43 INFO  CreateOrder:42 -**************TEST CASE STARTS**************************
+2022-10-25 23:14:28 ERROR CreateOrder:156 -Exception Message from Test
+There was an issue with the WebElement to be located by the locator:
+xpath~//div[contains(@class,'box')]
+Clue:Either WebElemnt does not exist in App or locator information in OR.Java is incorrect. See below for more information
+Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class,'box')] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Pragadeeswarans-MacBook-Air.local', ip: 'fe80:0:0:0:1c5c:e7ea:4bff:345c%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.6', java.version: '17.0.4.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:appActivity: com.google.android.apps.chr..., appium:appPackage: com.android.chrome, appium:chromedriverExecutable: /Users/praga/eclipse-worksp..., appium:databaseEnabled: false, appium:desired: {browserName: CHROME, chromedriverExecutable: /Users/praga/eclipse-worksp..., deviceName: Pixel, platformName: android, platformVersion: 11, udid: emulator-5554}, appium:deviceApiLevel: 30, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone_arm64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 440, appium:deviceScreenSize: 1080x2280, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.75, appium:platformVersion: 11, appium:statBarHeight: 66, appium:takesScreenshot: true, appium:udid: emulator-5554, appium:viewportRect: {height: 2082, left: 0, top: 66, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, browserName: CHROME, platformName: android}
+Session ID: c50b4d8d-f03b-472e-9279-9ccf420b812e
+2022-10-25 23:14:28 INFO  CreateOrder:161 -Completed Execution of Test Class : com.testcases.MobileCreateOrder
+2022-10-25 23:14:28 INFO  CreateOrder:162 -Completed Execution of Test case : Method : mobilecreateOrder
+2022-10-25 23:14:28 INFO  CreateOrder:166 -Test case Starting Time : [{webcreateOrder=10/25/2022 11:08:59, mobilecreateOrder=10/25/2022 11:11:43}]
+2022-10-25 23:14:28 INFO  CreateOrder:167 -Test case Ending Time : [{webcreateOrder=10/25/2022 11:11:43, mobilecreateOrder=10/25/2022 11:14:28}]
+2022-10-25 23:19:20 INFO  API:79 -Exception message from testCannot invoke "Object.toString()" because "type" is null
+2022-10-25 23:19:20 INFO  API:84 -
+Completed GET execution quitting
+2022-10-25 23:19:20 INFO  CreateOrder:46 -**************TEST CASE STARTS**************************
+2022-10-26 23:34:10 INFO  A11YTest:33 -**************TEST CASE STARTS**************************
+2022-10-26 23:37:12 INFO  A11YTest:33 -**************TEST CASE STARTS**************************
+2022-10-26 23:38:57 INFO  A11YTest:33 -**************TEST CASE STARTS**************************
+2022-10-26 23:39:48 INFO  A11YTest:33 -**************TEST CASE STARTS**************************
+2022-10-26 23:40:41 INFO  A11YTest:33 -**************TEST CASE STARTS**************************
+2022-10-26 23:43:09 INFO  A11YTest:33 -**************TEST CASE STARTS**************************
+2022-10-27 09:48:10 INFO  A11YTest:33 -**************TEST CASE STARTS**************************
+2022-10-27 11:02:29 INFO  A11YTest:33 -**************TEST CASE STARTS**************************
+2022-10-27 11:11:07 INFO  A11YTest:33 -**************TEST CASE STARTS**************************
+2022-10-27 11:14:09 INFO  A11YTest:33 -**************TEST CASE STARTS**************************
+2022-10-27 12:19:42 INFO  A11YTest:33 -**************TEST CASE STARTS**************************
+2022-10-27 13:04:15 INFO  A11YTest:34 -**************TEST CASE STARTS**************************
+2022-10-27 14:38:56 INFO  A11YTest:34 -**************TEST CASE STARTS**************************
+2022-10-27 14:41:43 INFO  API:79 -Exception message from testCannot invoke "Object.toString()" because "type" is null
+2022-10-27 14:41:43 INFO  API:84 -
+Completed GET execution quitting
+2022-10-27 14:42:25 INFO  API:79 -Exception message from testCannot invoke "Object.toString()" because "type" is null
+2022-10-27 14:42:25 INFO  API:84 -
+Completed GET execution quitting

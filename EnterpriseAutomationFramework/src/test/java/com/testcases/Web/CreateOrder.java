@@ -1,4 +1,4 @@
-package com.testcases;
+package com.testcases.Web;
 
 import java.lang.reflect.Method;
 import java.util.Arrays;
@@ -20,6 +20,7 @@ import com.utility.Library;
 
 public class CreateOrder extends Web {
 	
+	
 	public ThreadLocal<String> testClassMethod = new ThreadLocal<String>();
 	private static Logger logger =Logger.getLogger(CreateOrder.class);	
 	
@@ -37,7 +38,7 @@ public class CreateOrder extends Web {
 	
 	//@Test
 	
-	public void createOrder(Method testMethod) throws Exception 
+	public void webcreateOrder(Method testMethod) throws Exception 
 	{
 		
 	try {		
@@ -149,7 +150,7 @@ public class CreateOrder extends Web {
 	//SendMail
 	if(Orderplaced)
 	{
-		Library.sendEmail();
+		//Library.sendEmail();
 	}
 	
 	}

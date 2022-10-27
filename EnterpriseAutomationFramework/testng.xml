@@ -4,6 +4,8 @@
   <test thread-count="2" name="Test"> 
     <classes>     
       <class name="com.testcases.API"/>
+       <class name="com.testcases.CreateOrder"/>
+        <class name="com.testcases.MobileCreateOrder"/>
     </classes>
   </test> <!-- Test --> 
 </suite> <!-- Suite -->

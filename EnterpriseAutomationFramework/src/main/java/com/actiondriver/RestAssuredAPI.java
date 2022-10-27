@@ -35,7 +35,7 @@ public class RestAssuredAPI extends Library {
 	{
 		//prop=new Properties();
 		ip = new FileInputStream("./src/test/resources/Config.properties");
-		prop. load (ip);
+		prop.load(ip);
 		baseURI=prop.getProperty("baseURI");
 	}
 	

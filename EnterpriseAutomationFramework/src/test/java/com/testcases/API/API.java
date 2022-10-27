@@ -1,14 +1,14 @@
-package com.testcases;
+package com.testcases.API;
 
 import java.util.HashMap;
 import java.util.List;
 import org.apache.log4j.Logger;
 
-import org.testng.Assert;
+//import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import org.json.simple.parser.ParseException;
+//import org.json.simple.parser.ParseException;
 
 import com.actiondriver.RestAssuredAPI;
 import com.utility.Constants;

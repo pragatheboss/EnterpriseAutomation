@@ -106,7 +106,12 @@
 <artifactId>webdrivermanager</artifactId>
 <version>5.1.1</version>
 </dependency>
-
+<!--AXE Accessability A11Y-->
+<dependency>
+<groupId>com.deque</groupId>
+<artifactId>axe-selenium</artifactId>
+<version>3.0</version>
+</dependency>
 </dependencies>
 <build>
 <plugins>
