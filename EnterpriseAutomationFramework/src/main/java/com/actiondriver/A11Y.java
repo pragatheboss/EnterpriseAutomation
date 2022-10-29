@@ -30,13 +30,18 @@ public class A11Y extends Library{
 
 	//WebDriver driver;
 	private static Logger logger =Logger.getLogger(A11Y.class.getName());
-	private static final URL axejs_url =A11Y.class.getResource("/axe.min.js");
+	private static final URL axejs_url =A11Y.class.getResource("/A11Y/axe.min.js");
 	
 	public static Properties prop=new Properties();
 	public static FileInputStream ip; 
 	
 	public static String browser="";
 	public static String url="";
+	
+	public static String email="";
+	public static String password="";
+	
+	public static String platform="";
 	
 	private static String chromedriver =(OS.contains("MAC") ? "./src/test/resources/drivers/chromedriver" : OS.contains("LINUX")?"./src/test/resources/drivers/chromedriver_linux"
             :System.getProperty("user.dir")+"/Drivers");
@@ -45,7 +50,7 @@ public class A11Y extends Library{
 	
 	public static RemoteWebDriver driver = null;
 	
-	public static String filename="./src/test/resources/A11YLogs.txt";
+	public static String filename="./src/test/resources/A11Y/A11YLogs.txt";
 	
 	
 	//Load Properties
@@ -57,6 +62,10 @@ public class A11Y extends Library{
 			
 			browser= prop.getProperty("Browser");
 			url= prop.getProperty("URL");
+			
+			email= prop.getProperty("Email");
+			password= prop.getProperty("Password");
+			platform= prop.getProperty("Platform");
 			
 		}
 		
@@ -92,6 +101,7 @@ public class A11Y extends Library{
 			
 			JSONObject responseJSON =new AXE.Builder(driver, axejs_url).analyze();
 			JSONArray violations=responseJSON.getJSONArray("violations");
+			url= driver.getCurrentUrl();
 			Writer wr = new FileWriter(filename,true);
 			try
 			{
@@ -103,10 +113,10 @@ public class A11Y extends Library{
 				{
 					AXE.writeResults("a11yanalyze", responseJSON);
 					logger.info(AXE.report(violations));
-					wr.write(url+"\r\n"+new Exception().getStackTrace()[0].getMethodName()+"\r\n");
+					//wr.write(url+"\r\n"+new Exception().getStackTrace()[0].getMethodName()+"\r\n");
+					wr.write(url+"\r\n");
 					wr.write("********************************************************************************+\r\n");
 					wr.write(AXE.report(violations));
-					//Assert.assertTrue(false, AXE.report(violations));
 					wr.flush();
 					wr.close();
 				}

@@ -543,3 +543,41 @@ Completed GET execution quitting
 2022-10-27 14:42:25 INFO  API:79 -Exception message from testCannot invoke "Object.toString()" because "type" is null
 2022-10-27 14:42:25 INFO  API:84 -
 Completed GET execution quitting
+2022-10-28 11:00:23 INFO  A11YTest:36 -**************TEST CASE STARTS**************************
+2022-10-28 11:07:24 INFO  A11YTest:36 -**************TEST CASE STARTS**************************
+2022-10-28 11:09:09 INFO  A11YTest:36 -**************TEST CASE STARTS**************************
+2022-10-28 11:10:42 INFO  A11YTest:36 -**************TEST CASE STARTS**************************
+2022-10-28 11:57:56 INFO  A11YTest:38 -**************TEST CASE STARTS**************************
+2022-10-28 11:59:20 ERROR A11YTest:163 -Exception Message from Test
+There was an issue with the WebElement to be located by the locator:
+xpath~//i[@class='icon-th-list']
+Clue:Either WebElemnt does not exist in App or locator information in OR.Java is incorrect. See below for more information
+Expected condition failed: waiting for visibility of element located by By.xpath: //i[@class='icon-th-list'] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Pragadeeswarans-MacBook-Air.local', ip: 'fe80:0:0:0:40c:8164:7811:4781%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.6', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.87, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: /var/folders/j8/71rq0p8n0z9...}, goog:chromeOptions: {debuggerAddress: localhost:52170}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:52170/devtoo..., se:cdpVersion: 107.0.5304.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 90d643ca38c0d37030d770999ebb2a39
+2022-10-28 11:59:20 INFO  A11YTest:168 -Completed Execution of Test Class : com.testcases.Accessbility.A11YTest
+2022-10-28 11:59:20 INFO  A11YTest:169 -Completed Execution of Test case : Method : A11YTesting
+2022-10-28 11:59:20 INFO  A11YTest:173 -Test case Starting Time : [{A11YTesting=10/28/2022 11:57:56}]
+2022-10-28 11:59:20 INFO  A11YTest:174 -Test case Ending Time : [{A11YTesting=10/28/2022 11:59:20}]
+2022-10-28 12:04:48 INFO  A11YTest:38 -**************TEST CASE STARTS**************************
+2022-10-28 12:05:35 ERROR A11YTest:163 -Exception Message from Testno such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=107.0.5304.87)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Pragadeeswarans-MacBook-Air.local', ip: 'fe80:0:0:0:40c:8164:7811:4781%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.6', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [85cb56b772ecc9c33cd0099f1f5a7bbd, executeScript {script=arguments[0].setAttribute('style','background:yellow;border:2px solid red;');, args=[{ELEMENT=37594795-61cd-49e2-be31-9eddc6b270d2, element-6066-11e4-a52e-4f735466cecf=37594795-61cd-49e2-be31-9eddc6b270d2}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.87, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: /var/folders/j8/71rq0p8n0z9...}, goog:chromeOptions: {debuggerAddress: localhost:52217}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:52217/devtoo..., se:cdpVersion: 107.0.5304.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 85cb56b772ecc9c33cd0099f1f5a7bbd
+2022-10-28 12:05:35 INFO  A11YTest:168 -Completed Execution of Test Class : com.testcases.Accessbility.A11YTest
+2022-10-28 12:05:35 INFO  A11YTest:169 -Completed Execution of Test case : Method : A11YTesting
+2022-10-28 12:05:35 INFO  A11YTest:173 -Test case Starting Time : [{A11YTesting=10/28/2022 12:04:48}]
+2022-10-28 12:05:35 INFO  A11YTest:174 -Test case Ending Time : [{A11YTesting=10/28/2022 12:05:35}]
+2022-10-28 12:07:30 INFO  A11YTest:38 -**************TEST CASE STARTS**************************
+2022-10-28 12:10:15 INFO  A11YTest:168 -Completed Execution of Test Class : com.testcases.Accessbility.A11YTest
+2022-10-28 12:10:15 INFO  A11YTest:169 -Completed Execution of Test case : Method : A11YTesting
+2022-10-28 12:10:15 INFO  A11YTest:173 -Test case Starting Time : [{A11YTesting=10/28/2022 12:07:30}]
+2022-10-28 12:10:15 INFO  A11YTest:174 -Test case Ending Time : [{A11YTesting=10/28/2022 12:10:15}]
